@@ -1,0 +1,78 @@
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+[Parallel(n_jobs=6)]: Done   6 tasks      | elapsed:   13.4s
+[Parallel(n_jobs=6)]: Done  60 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=6)]: Done 120 out of 120 | elapsed:  3.1min finished
+dataset          detector  frac    kind  false_call_rate    a50    a90
+kermany      NDT half-max  0.20 cyst_px            0.100 51.473 77.339
+kermany      NDT half-max  0.20     srf            0.100 46.150 63.426
+kermany      NDT half-max  0.25 cyst_px            0.133 47.667 71.273
+kermany      NDT half-max  0.25     srf            0.133 42.176 58.707
+kermany      NDT half-max  0.30 cyst_px            0.167 42.477 66.131
+kermany      NDT half-max  0.30     srf            0.167 39.024 55.089
+kermany      NDT half-max  0.35 cyst_px            0.200 38.628 60.129
+kermany      NDT half-max  0.35     srf            0.200 36.800 52.435
+kermany      NDT half-max  0.40 cyst_px            0.300 35.106 53.566
+kermany      NDT half-max  0.40     srf            0.300 34.711 48.102
+kermany      NDT half-max  0.45 cyst_px            0.483 32.994 52.491
+kermany      NDT half-max  0.45     srf            0.483 31.030 40.918
+kermany v2 fixed-fraction  0.10 cyst_px            0.083 56.805 83.440
+kermany v2 fixed-fraction  0.10     srf            0.083 58.264 76.850
+kermany v2 fixed-fraction  0.15 cyst_px            0.117 47.050 72.299
+kermany v2 fixed-fraction  0.15     srf            0.117 49.188 64.194
+kermany v2 fixed-fraction  0.20 cyst_px            0.150 40.401 62.226
+kermany v2 fixed-fraction  0.20     srf            0.150 43.843 56.549
+kermany v2 fixed-fraction  0.25 cyst_px            0.300 35.838 54.261
+kermany v2 fixed-fraction  0.25     srf            0.300 38.620 48.777
+kermany v2 fixed-fraction  0.30 cyst_px            0.450 32.336 50.612
+kermany v2 fixed-fraction  0.30     srf            0.450 36.120 44.087
+kermany v2 fixed-fraction  0.35 cyst_px            0.633 30.306 46.109
+kermany v2 fixed-fraction  0.35     srf            0.633 33.724 41.844
+  octdl      NDT half-max  0.20 cyst_px            0.033 48.902 70.315
+  octdl      NDT half-max  0.20     srf            0.033 42.121 55.272
+  octdl      NDT half-max  0.25 cyst_px            0.133 43.253 61.310
+  octdl      NDT half-max  0.25     srf            0.133 39.066 50.286
+  octdl      NDT half-max  0.30 cyst_px            0.183 40.803 55.822
+  octdl      NDT half-max  0.30     srf            0.183 36.078 43.373
+  octdl      NDT half-max  0.35 cyst_px            0.350 36.647 48.533
+  octdl      NDT half-max  0.35     srf            0.350 33.877 41.296
+  octdl      NDT half-max  0.40 cyst_px            0.467 33.338 42.881
+  octdl      NDT half-max  0.40     srf            0.467 32.865 40.574
+  octdl      NDT half-max  0.45 cyst_px            0.617 31.330 41.516
+  octdl      NDT half-max  0.45     srf            0.617 30.853 39.111
+  octdl v2 fixed-fraction  0.10 cyst_px            0.000 55.991 72.989
+  octdl v2 fixed-fraction  0.10     srf            0.000 51.830 63.736
+  octdl v2 fixed-fraction  0.15 cyst_px            0.033 47.816 63.123
+  octdl v2 fixed-fraction  0.15     srf            0.033 46.154 57.920
+  octdl v2 fixed-fraction  0.20 cyst_px            0.317 40.994 54.664
+  octdl v2 fixed-fraction  0.20     srf            0.317 41.377 51.324
+  octdl v2 fixed-fraction  0.25 cyst_px            0.567 36.898 48.667
+  octdl v2 fixed-fraction  0.25     srf            0.567 37.738 47.569
+  octdl v2 fixed-fraction  0.30 cyst_px            0.817 33.320 43.390
+  octdl v2 fixed-fraction  0.30     srf            0.817 34.533 45.211
+  octdl v2 fixed-fraction  0.35 cyst_px            0.917 30.207 39.306
+  octdl v2 fixed-fraction  0.35     srf            0.917 32.606 41.832
+kermany|cyst_px|fcr=0.1|NDT half-max                       a90   77.3
+kermany|cyst_px|fcr=0.1|v2 fixed-fraction                  a90   77.9
+kermany|cyst_px|fcr=0.2|NDT half-max                       a90   60.1
+kermany|cyst_px|fcr=0.2|v2 fixed-fraction                  a90   59.6
+kermany|cyst_px|fcr=0.3|NDT half-max                       a90   53.6
+kermany|cyst_px|fcr=0.3|v2 fixed-fraction                  a90   54.3
+kermany|srf|fcr=0.1|NDT half-max                           a90   63.4
+kermany|srf|fcr=0.1|v2 fixed-fraction                      a90   70.5
+kermany|srf|fcr=0.2|NDT half-max                           a90   52.4
+kermany|srf|fcr=0.2|v2 fixed-fraction                      a90   54.0
+kermany|srf|fcr=0.3|NDT half-max                           a90   48.1
+kermany|srf|fcr=0.3|v2 fixed-fraction                      a90   48.8
+octdl|cyst_px|fcr=0.1|NDT half-max                         a90   64.3
+octdl|cyst_px|fcr=0.1|v2 fixed-fraction                    a90   61.1
+octdl|cyst_px|fcr=0.2|NDT half-max                         a90   55.1
+octdl|cyst_px|fcr=0.2|v2 fixed-fraction                    a90   58.1
+octdl|cyst_px|fcr=0.3|NDT half-max                         a90   50.7
+octdl|cyst_px|fcr=0.3|v2 fixed-fraction                    a90   55.2
+octdl|srf|fcr=0.1|NDT half-max                             a90   51.9
+octdl|srf|fcr=0.1|v2 fixed-fraction                        a90   56.4
+octdl|srf|fcr=0.2|NDT half-max                             a90   43.2
+octdl|srf|fcr=0.2|v2 fixed-fraction                        a90   54.0
+octdl|srf|fcr=0.3|NDT half-max                             a90   41.9
+octdl|srf|fcr=0.3|v2 fixed-fraction                        a90   51.7
+saved results\v3\mapod_sweep.json

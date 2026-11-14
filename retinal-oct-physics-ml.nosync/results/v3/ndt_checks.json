@@ -1,0 +1,239 @@
+{
+  "families": [
+    {
+      "family": "NDT: SNR/CNR",
+      "shift": 1.4946,
+      "signal": 0.1413,
+      "top_signal": 0.2077,
+      "n": 3
+    },
+    {
+      "family": "v2 disease: fluid",
+      "shift": 0.2898,
+      "signal": 0.1383,
+      "top_signal": 0.1832,
+      "n": 4
+    },
+    {
+      "family": "NDT: half-max sizing",
+      "shift": 0.2161,
+      "signal": 0.0775,
+      "top_signal": 0.1751,
+      "n": 10
+    },
+    {
+      "family": "NDT: speckle",
+      "shift": 0.42,
+      "signal": 0.0693,
+      "top_signal": 0.1842,
+      "n": 6
+    },
+    {
+      "family": "v2 texture: lac4",
+      "shift": 0.4017,
+      "signal": 0.0546,
+      "top_signal": 0.0948,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: entropy",
+      "shift": 0.7947,
+      "signal": 0.0542,
+      "top_signal": 0.1117,
+      "n": 20
+    },
+    {
+      "family": "v2 disease: thickness",
+      "shift": 0.8135,
+      "signal": 0.054,
+      "top_signal": 0.0775,
+      "n": 11
+    },
+    {
+      "family": "NDT: attenuation",
+      "shift": 0.278,
+      "signal": 0.0528,
+      "top_signal": 0.1281,
+      "n": 14
+    },
+    {
+      "family": "NDT: interface contrast",
+      "shift": 0.407,
+      "signal": 0.0525,
+      "top_signal": 0.2075,
+      "n": 14
+    },
+    {
+      "family": "v2 texture: std",
+      "shift": 0.6809,
+      "signal": 0.0514,
+      "top_signal": 0.1462,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: coh",
+      "shift": 0.7518,
+      "signal": 0.0505,
+      "top_signal": 0.1711,
+      "n": 20
+    },
+    {
+      "family": "v2 disease: reflectivity/RPE",
+      "shift": 0.4091,
+      "signal": 0.0406,
+      "top_signal": 0.0572,
+      "n": 8
+    },
+    {
+      "family": "v2 texture: nmsid1",
+      "shift": 0.4485,
+      "signal": 0.0397,
+      "top_signal": 0.065,
+      "n": 20
+    },
+    {
+      "family": "NDT: shadowing",
+      "shift": 0.2324,
+      "signal": 0.0392,
+      "top_signal": 0.0452,
+      "n": 7
+    },
+    {
+      "family": "v2 texture: mean",
+      "shift": 1.317,
+      "signal": 0.0373,
+      "top_signal": 0.0823,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: H",
+      "shift": 0.4535,
+      "signal": 0.0295,
+      "top_signal": 0.0789,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: H_r2",
+      "shift": 0.7097,
+      "signal": 0.029,
+      "top_signal": 0.1307,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: nmsid_ratio",
+      "shift": 0.4199,
+      "signal": 0.0287,
+      "top_signal": 0.0787,
+      "n": 20
+    },
+    {
+      "family": "NDT QC: raw reference levels",
+      "shift": 1.0363,
+      "signal": 0.0281,
+      "top_signal": 0.1142,
+      "n": 3
+    },
+    {
+      "family": "v2 texture: lac8",
+      "shift": 0.3384,
+      "signal": 0.0205,
+      "top_signal": 0.0592,
+      "n": 20
+    },
+    {
+      "family": "v2 texture: kt1",
+      "shift": 0.9899,
+      "signal": 0.016,
+      "top_signal": 0.05,
+      "n": 20
+    },
+    {
+      "family": "paper: grid Hurst",
+      "shift": 0.7606,
+      "signal": 0.0093,
+      "top_signal": 0.0225,
+      "n": 150
+    },
+    {
+      "family": "paper: grid KT-1",
+      "shift": 0.5414,
+      "signal": 0.0066,
+      "top_signal": 0.0138,
+      "n": 150
+    }
+  ],
+  "top_ndt": [
+    {
+      "feature": "ndt_ic_rpe_below_med",
+      "family": "NDT: interface contrast",
+      "shift": 1.5397,
+      "signal": 0.2314
+    },
+    {
+      "feature": "ndt_cnr_rpe_choroid",
+      "family": "NDT: SNR/CNR",
+      "shift": 1.4946,
+      "signal": 0.2243
+    },
+    {
+      "feature": "ndt_trans_med",
+      "family": "NDT: attenuation",
+      "shift": 1.5044,
+      "signal": 0.222
+    },
+    {
+      "feature": "ndt_ic_rpe_below_c_med",
+      "family": "NDT: interface contrast",
+      "shift": 1.242,
+      "signal": 0.208
+    },
+    {
+      "feature": "ndt_ic_rpe_above_iqr",
+      "family": "NDT: interface contrast",
+      "shift": 0.4906,
+      "signal": 0.2062
+    },
+    {
+      "feature": "ndt_hm_fluid_h",
+      "family": "NDT: half-max sizing",
+      "shift": 0.0536,
+      "signal": 0.2035
+    },
+    {
+      "feature": "ndt_spk_outer_m",
+      "family": "NDT: speckle",
+      "shift": 0.4919,
+      "signal": 0.1883
+    },
+    {
+      "feature": "ndt_spk_outer_contrast",
+      "family": "NDT: speckle",
+      "shift": 0.4456,
+      "signal": 0.1801
+    },
+    {
+      "feature": "ndt_hm_fluid_area",
+      "family": "NDT: half-max sizing",
+      "shift": 0.122,
+      "signal": 0.172
+    },
+    {
+      "feature": "ndt_hm_fluid_frac",
+      "family": "NDT: half-max sizing",
+      "shift": 0.2279,
+      "signal": 0.1661
+    },
+    {
+      "feature": "ndt_hm_fluid_w",
+      "family": "NDT: half-max sizing",
+      "shift": 0.1063,
+      "signal": 0.1467
+    },
+    {
+      "feature": "ndt_cnr_fluid",
+      "family": "NDT: SNR/CNR",
+      "shift": 0.265,
+      "signal": 0.1413
+    }
+  ]
+}

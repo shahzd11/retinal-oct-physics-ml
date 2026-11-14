@@ -1,0 +1,462 @@
+{
+  "curves": [
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.2,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1,
+      "a50": 51.4732,
+      "a90": 77.3387
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.2,
+      "kind": "srf",
+      "false_call_rate": 0.1,
+      "a50": 46.1504,
+      "a90": 63.426
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.25,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1333,
+      "a50": 47.6672,
+      "a90": 71.2734
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.25,
+      "kind": "srf",
+      "false_call_rate": 0.1333,
+      "a50": 42.1763,
+      "a90": 58.7068
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.3,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1667,
+      "a50": 42.477,
+      "a90": 66.1309
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.3,
+      "kind": "srf",
+      "false_call_rate": 0.1667,
+      "a50": 39.0244,
+      "a90": 55.0889
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.35,
+      "kind": "cyst_px",
+      "false_call_rate": 0.2,
+      "a50": 38.6279,
+      "a90": 60.1292
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.35,
+      "kind": "srf",
+      "false_call_rate": 0.2,
+      "a50": 36.8001,
+      "a90": 52.4348
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.4,
+      "kind": "cyst_px",
+      "false_call_rate": 0.3,
+      "a50": 35.106,
+      "a90": 53.5658
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.4,
+      "kind": "srf",
+      "false_call_rate": 0.3,
+      "a50": 34.7106,
+      "a90": 48.102
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.45,
+      "kind": "cyst_px",
+      "false_call_rate": 0.4833,
+      "a50": 32.9945,
+      "a90": 52.4908
+    },
+    {
+      "dataset": "kermany",
+      "detector": "NDT half-max",
+      "frac": 0.45,
+      "kind": "srf",
+      "false_call_rate": 0.4833,
+      "a50": 31.0303,
+      "a90": 40.9177
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.1,
+      "kind": "cyst_px",
+      "false_call_rate": 0.0833,
+      "a50": 56.8045,
+      "a90": 83.4403
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.1,
+      "kind": "srf",
+      "false_call_rate": 0.0833,
+      "a50": 58.2643,
+      "a90": 76.8496
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.15,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1167,
+      "a50": 47.0497,
+      "a90": 72.2993
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.15,
+      "kind": "srf",
+      "false_call_rate": 0.1167,
+      "a50": 49.1876,
+      "a90": 64.1938
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.2,
+      "kind": "cyst_px",
+      "false_call_rate": 0.15,
+      "a50": 40.4009,
+      "a90": 62.2261
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.2,
+      "kind": "srf",
+      "false_call_rate": 0.15,
+      "a50": 43.843,
+      "a90": 56.5493
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.25,
+      "kind": "cyst_px",
+      "false_call_rate": 0.3,
+      "a50": 35.8378,
+      "a90": 54.2615
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.25,
+      "kind": "srf",
+      "false_call_rate": 0.3,
+      "a50": 38.6198,
+      "a90": 48.7766
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.3,
+      "kind": "cyst_px",
+      "false_call_rate": 0.45,
+      "a50": 32.3362,
+      "a90": 50.6123
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.3,
+      "kind": "srf",
+      "false_call_rate": 0.45,
+      "a50": 36.1196,
+      "a90": 44.0873
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.35,
+      "kind": "cyst_px",
+      "false_call_rate": 0.6333,
+      "a50": 30.3061,
+      "a90": 46.1092
+    },
+    {
+      "dataset": "kermany",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.35,
+      "kind": "srf",
+      "false_call_rate": 0.6333,
+      "a50": 33.7243,
+      "a90": 41.8443
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.2,
+      "kind": "cyst_px",
+      "false_call_rate": 0.0333,
+      "a50": 48.902,
+      "a90": 70.3154
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.2,
+      "kind": "srf",
+      "false_call_rate": 0.0333,
+      "a50": 42.1208,
+      "a90": 55.2719
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.25,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1333,
+      "a50": 43.2535,
+      "a90": 61.3104
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.25,
+      "kind": "srf",
+      "false_call_rate": 0.1333,
+      "a50": 39.0663,
+      "a90": 50.2861
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.3,
+      "kind": "cyst_px",
+      "false_call_rate": 0.1833,
+      "a50": 40.8027,
+      "a90": 55.8221
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.3,
+      "kind": "srf",
+      "false_call_rate": 0.1833,
+      "a50": 36.0784,
+      "a90": 43.3731
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.35,
+      "kind": "cyst_px",
+      "false_call_rate": 0.35,
+      "a50": 36.6466,
+      "a90": 48.5329
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.35,
+      "kind": "srf",
+      "false_call_rate": 0.35,
+      "a50": 33.8775,
+      "a90": 41.2964
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.4,
+      "kind": "cyst_px",
+      "false_call_rate": 0.4667,
+      "a50": 33.3384,
+      "a90": 42.8808
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.4,
+      "kind": "srf",
+      "false_call_rate": 0.4667,
+      "a50": 32.8652,
+      "a90": 40.574
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.45,
+      "kind": "cyst_px",
+      "false_call_rate": 0.6167,
+      "a50": 31.3304,
+      "a90": 41.5157
+    },
+    {
+      "dataset": "octdl",
+      "detector": "NDT half-max",
+      "frac": 0.45,
+      "kind": "srf",
+      "false_call_rate": 0.6167,
+      "a50": 30.8526,
+      "a90": 39.1114
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.1,
+      "kind": "cyst_px",
+      "false_call_rate": 0.0,
+      "a50": 55.9908,
+      "a90": 72.9888
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.1,
+      "kind": "srf",
+      "false_call_rate": 0.0,
+      "a50": 51.8304,
+      "a90": 63.7361
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.15,
+      "kind": "cyst_px",
+      "false_call_rate": 0.0333,
+      "a50": 47.8155,
+      "a90": 63.1228
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.15,
+      "kind": "srf",
+      "false_call_rate": 0.0333,
+      "a50": 46.1536,
+      "a90": 57.9199
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.2,
+      "kind": "cyst_px",
+      "false_call_rate": 0.3167,
+      "a50": 40.9943,
+      "a90": 54.6641
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.2,
+      "kind": "srf",
+      "false_call_rate": 0.3167,
+      "a50": 41.3768,
+      "a90": 51.3244
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.25,
+      "kind": "cyst_px",
+      "false_call_rate": 0.5667,
+      "a50": 36.898,
+      "a90": 48.6671
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.25,
+      "kind": "srf",
+      "false_call_rate": 0.5667,
+      "a50": 37.7383,
+      "a90": 47.5693
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.3,
+      "kind": "cyst_px",
+      "false_call_rate": 0.8167,
+      "a50": 33.3201,
+      "a90": 43.3897
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.3,
+      "kind": "srf",
+      "false_call_rate": 0.8167,
+      "a50": 34.5325,
+      "a90": 45.2107
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.35,
+      "kind": "cyst_px",
+      "false_call_rate": 0.9167,
+      "a50": 30.2066,
+      "a90": 39.3063
+    },
+    {
+      "dataset": "octdl",
+      "detector": "v2 fixed-fraction",
+      "frac": 0.35,
+      "kind": "srf",
+      "false_call_rate": 0.9167,
+      "a50": 32.606,
+      "a90": 41.8322
+    }
+  ],
+  "a90_at_matched_fcr": {
+    "kermany|cyst_px|fcr=0.1|NDT half-max": 77.33868150860553,
+    "kermany|cyst_px|fcr=0.1|v2 fixed-fraction": 77.86980584635833,
+    "kermany|cyst_px|fcr=0.2|NDT half-max": 60.12919701510997,
+    "kermany|cyst_px|fcr=0.2|v2 fixed-fraction": 59.57119742195539,
+    "kermany|cyst_px|fcr=0.3|NDT half-max": 53.56581913090757,
+    "kermany|cyst_px|fcr=0.3|v2 fixed-fraction": 54.26146450925878,
+    "kermany|srf|fcr=0.1|NDT half-max": 63.42600802355387,
+    "kermany|srf|fcr=0.1|v2 fixed-fraction": 70.52174128533096,
+    "kermany|srf|fcr=0.2|NDT half-max": 52.43478532361393,
+    "kermany|srf|fcr=0.2|v2 fixed-fraction": 53.95840028232054,
+    "kermany|srf|fcr=0.3|NDT half-max": 48.1020000055446,
+    "kermany|srf|fcr=0.3|v2 fixed-fraction": 48.77662033704224,
+    "octdl|cyst_px|fcr=0.1|NDT half-max": 64.31210067408234,
+    "octdl|cyst_px|fcr=0.1|v2 fixed-fraction": 61.13252929201273,
+    "octdl|cyst_px|fcr=0.2|NDT half-max": 55.093203209920674,
+    "octdl|cyst_px|fcr=0.2|v2 fixed-fraction": 58.1470959962188,
+    "octdl|cyst_px|fcr=0.3|NDT half-max": 50.71968876335222,
+    "octdl|cyst_px|fcr=0.3|v2 fixed-fraction": 55.16166270042487,
+    "octdl|srf|fcr=0.1|NDT half-max": 51.94800263459089,
+    "octdl|srf|fcr=0.1|v2 fixed-fraction": 56.368011387050586,
+    "octdl|srf|fcr=0.2|NDT half-max": 43.16542270036313,
+    "octdl|srf|fcr=0.2|v2 fixed-fraction": 54.04018390223181,
+    "octdl|srf|fcr=0.3|NDT half-max": 41.91940640176321,
+    "octdl|srf|fcr=0.3|v2 fixed-fraction": 51.712356417413034
+  }
+}

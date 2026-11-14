@@ -1,0 +1,653 @@
+[
+  {
+    "features": "v2 band-summary + disease",
+    "model": "RF (paper config)",
+    "within_bacc": 0.7162013583541313,
+    "within_ci": [
+      0.6859424541081529,
+      0.7354247800764742
+    ],
+    "ext_bacc": 0.5028636570852784,
+    "ext_acc": 0.7005847953216374,
+    "ext_cm": [
+      [
+        80,
+        3,
+        249
+      ],
+      [
+        1,
+        60,
+        86
+      ],
+      [
+        12,
+        161,
+        1058
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7226922236443667,
+    "octid_normal_recall": 0.7572815533980582,
+    "octid_abnormal_recall": 0.6881028938906752
+  },
+  {
+    "features": "v2 band-summary + disease",
+    "model": "Gradient boosting",
+    "within_bacc": 0.7418498886272202,
+    "within_ci": [
+      0.7203516991783093,
+      0.7704598629592321
+    ],
+    "ext_bacc": 0.6384496578687524,
+    "ext_acc": 0.7514619883040936,
+    "ext_cm": [
+      [
+        211,
+        11,
+        110
+      ],
+      [
+        5,
+        68,
+        74
+      ],
+      [
+        52,
+        173,
+        1006
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6802906377797896,
+    "octid_normal_recall": 0.8203883495145631,
+    "octid_abnormal_recall": 0.5401929260450161
+  },
+  {
+    "features": "v2 band-summary + disease",
+    "model": "Logistic regression",
+    "within_bacc": 0.742543809588756,
+    "within_ci": [
+      0.7192419603247071,
+      0.7658557496580373
+    ],
+    "ext_bacc": 0.6690511000938274,
+    "ext_acc": 0.7309941520467836,
+    "ext_cm": [
+      [
+        282,
+        12,
+        38
+      ],
+      [
+        24,
+        62,
+        61
+      ],
+      [
+        140,
+        185,
+        906
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.5468501233103362,
+    "octid_normal_recall": 0.8203883495145631,
+    "octid_abnormal_recall": 0.2733118971061093
+  },
+  {
+    "features": "v2 all",
+    "model": "RF (paper config)",
+    "within_bacc": 0.7235408800314267,
+    "within_ci": [
+      0.6999002966942033,
+      0.7506694980851836
+    ],
+    "ext_bacc": 0.5463071304099336,
+    "ext_acc": 0.7263157894736842,
+    "ext_cm": [
+      [
+        123,
+        2,
+        207
+      ],
+      [
+        1,
+        60,
+        86
+      ],
+      [
+        28,
+        144,
+        1059
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6818359192083164,
+    "octid_normal_recall": 0.8009708737864077,
+    "octid_abnormal_recall": 0.5627009646302251
+  },
+  {
+    "features": "v2 all",
+    "model": "Gradient boosting",
+    "within_bacc": 0.7435156825700937,
+    "within_ci": [
+      0.719419229621232,
+      0.770350060098469
+    ],
+    "ext_bacc": 0.6400972624506659,
+    "ext_acc": 0.7508771929824561,
+    "ext_cm": [
+      [
+        200,
+        9,
+        123
+      ],
+      [
+        6,
+        73,
+        68
+      ],
+      [
+        55,
+        165,
+        1011
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6400664939281366,
+    "octid_normal_recall": 0.8106796116504854,
+    "octid_abnormal_recall": 0.4694533762057878
+  },
+  {
+    "features": "v2 all",
+    "model": "Logistic regression",
+    "within_bacc": 0.7372925793788001,
+    "within_ci": [
+      0.710670165507202,
+      0.7586060745811655
+    ],
+    "ext_bacc": 0.6577226305488315,
+    "ext_acc": 0.6947368421052632,
+    "ext_cm": [
+      [
+        284,
+        15,
+        33
+      ],
+      [
+        33,
+        64,
+        50
+      ],
+      [
+        165,
+        226,
+        840
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.5654169138076359,
+    "octid_normal_recall": 0.8446601941747572,
+    "octid_abnormal_recall": 0.2861736334405145
+  },
+  {
+    "features": "NDT only",
+    "model": "RF (paper config)",
+    "within_bacc": 0.6673329043712166,
+    "within_ci": [
+      0.6411243863494311,
+      0.6933872855848611
+    ],
+    "ext_bacc": 0.4928311920294006,
+    "ext_acc": 0.6497076023391812,
+    "ext_cm": [
+      [
+        93,
+        37,
+        202
+      ],
+      [
+        13,
+        62,
+        72
+      ],
+      [
+        27,
+        248,
+        956
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7113757687384885,
+    "octid_normal_recall": 0.7378640776699029,
+    "octid_abnormal_recall": 0.684887459807074
+  },
+  {
+    "features": "NDT only",
+    "model": "Gradient boosting",
+    "within_bacc": 0.682165842796224,
+    "within_ci": [
+      0.6591637801801712,
+      0.7095776417356303
+    ],
+    "ext_bacc": 0.5349464969744858,
+    "ext_acc": 0.7128654970760234,
+    "ext_cm": [
+      [
+        116,
+        28,
+        188
+      ],
+      [
+        11,
+        60,
+        76
+      ],
+      [
+        30,
+        158,
+        1043
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7257203508881467,
+    "octid_normal_recall": 0.6990291262135923,
+    "octid_abnormal_recall": 0.752411575562701
+  },
+  {
+    "features": "NDT only",
+    "model": "Logistic regression",
+    "within_bacc": 0.6649554486523006,
+    "within_ci": [
+      0.6369744739948765,
+      0.6851227275114875
+    ],
+    "ext_bacc": 0.5193633445013107,
+    "ext_acc": 0.6508771929824562,
+    "ext_cm": [
+      [
+        123,
+        45,
+        164
+      ],
+      [
+        20,
+        64,
+        63
+      ],
+      [
+        57,
+        248,
+        926
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7314254050510411,
+    "octid_normal_recall": 0.7233009708737864,
+    "octid_abnormal_recall": 0.7395498392282959
+  },
+  {
+    "features": "NDT robust",
+    "model": "RF (paper config)",
+    "within_bacc": 0.6767839237440321,
+    "within_ci": [
+      0.645927519850909,
+      0.6969104693554667
+    ],
+    "ext_bacc": 0.5058109891113718,
+    "ext_acc": 0.6005847953216374,
+    "ext_cm": [
+      [
+        139,
+        37,
+        156
+      ],
+      [
+        16,
+        63,
+        68
+      ],
+      [
+        96,
+        310,
+        825
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7514438235569569,
+    "octid_normal_recall": 0.6990291262135923,
+    "octid_abnormal_recall": 0.8038585209003215
+  },
+  {
+    "features": "NDT robust",
+    "model": "Gradient boosting",
+    "within_bacc": 0.6785456665742643,
+    "within_ci": [
+      0.6578165677453559,
+      0.7073115208939085
+    ],
+    "ext_bacc": 0.5421842212264899,
+    "ext_acc": 0.6619883040935672,
+    "ext_cm": [
+      [
+        158,
+        40,
+        134
+      ],
+      [
+        20,
+        60,
+        67
+      ],
+      [
+        95,
+        222,
+        914
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7070911247775731,
+    "octid_normal_recall": 0.6553398058252428,
+    "octid_abnormal_recall": 0.7588424437299035
+  },
+  {
+    "features": "NDT robust",
+    "model": "Logistic regression",
+    "within_bacc": 0.658604498418009,
+    "within_ci": [
+      0.634798315134239,
+      0.6841964428648941
+    ],
+    "ext_bacc": 0.5175603856098143,
+    "ext_acc": 0.5385964912280702,
+    "ext_cm": [
+      [
+        186,
+        62,
+        84
+      ],
+      [
+        40,
+        66,
+        41
+      ],
+      [
+        186,
+        376,
+        669
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7273592857365841,
+    "octid_normal_recall": 0.7087378640776699,
+    "octid_abnormal_recall": 0.7459807073954984
+  },
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "RF (paper config)",
+    "within_bacc": 0.722846767869074,
+    "within_ci": [
+      0.6965138644989696,
+      0.747141732107766
+    ],
+    "ext_bacc": 0.5245898796032953,
+    "ext_acc": 0.7,
+    "ext_cm": [
+      [
+        110,
+        6,
+        216
+      ],
+      [
+        1,
+        60,
+        86
+      ],
+      [
+        29,
+        175,
+        1027
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7486342209596353,
+    "octid_normal_recall": 0.8252427184466019,
+    "octid_abnormal_recall": 0.6720257234726688
+  },
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "Gradient boosting",
+    "within_bacc": 0.7536737540831282,
+    "within_ci": [
+      0.7292957221778239,
+      0.7771594222789527
+    ],
+    "ext_bacc": 0.6597942469769106,
+    "ext_acc": 0.7649122807017544,
+    "ext_cm": [
+      [
+        218,
+        12,
+        102
+      ],
+      [
+        8,
+        73,
+        66
+      ],
+      [
+        58,
+        156,
+        1017
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6964302438110699,
+    "octid_normal_recall": 0.8398058252427184,
+    "octid_abnormal_recall": 0.5530546623794212
+  },
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "Logistic regression",
+    "within_bacc": 0.7540995644701354,
+    "within_ci": [
+      0.7311330475923631,
+      0.7753539515325042
+    ],
+    "ext_bacc": 0.6773985534693914,
+    "ext_acc": 0.7099415204678362,
+    "ext_cm": [
+      [
+        274,
+        24,
+        34
+      ],
+      [
+        25,
+        74,
+        48
+      ],
+      [
+        129,
+        236,
+        866
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.5930602815846159,
+    "octid_normal_recall": 0.941747572815534,
+    "octid_abnormal_recall": 0.24437299035369775
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust",
+    "model": "RF (paper config)",
+    "within_bacc": 0.7271707843659174,
+    "within_ci": [
+      0.7032877947673808,
+      0.7528035181997474
+    ],
+    "ext_bacc": 0.5558034566467043,
+    "ext_acc": 0.7029239766081872,
+    "ext_cm": [
+      [
+        148,
+        7,
+        177
+      ],
+      [
+        3,
+        61,
+        83
+      ],
+      [
+        37,
+        201,
+        993
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7622529891049854,
+    "octid_normal_recall": 0.8106796116504854,
+    "octid_abnormal_recall": 0.7138263665594855
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust",
+    "model": "Gradient boosting",
+    "within_bacc": 0.7542269951887737,
+    "within_ci": [
+      0.7258924704000719,
+      0.7734908576181712
+    ],
+    "ext_bacc": 0.667193462033726,
+    "ext_acc": 0.7555555555555555,
+    "ext_cm": [
+      [
+        234,
+        13,
+        85
+      ],
+      [
+        10,
+        73,
+        64
+      ],
+      [
+        69,
+        177,
+        985
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.7205459994380794,
+    "octid_normal_recall": 0.8398058252427184,
+    "octid_abnormal_recall": 0.6012861736334405
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust",
+    "model": "Logistic regression",
+    "within_bacc": 0.7548096287941917,
+    "within_ci": [
+      0.7347206636996106,
+      0.7792989278504303
+    ],
+    "ext_bacc": 0.6795191397951982,
+    "ext_acc": 0.708187134502924,
+    "ext_cm": [
+      [
+        278,
+        22,
+        32
+      ],
+      [
+        28,
+        74,
+        45
+      ],
+      [
+        137,
+        235,
+        859
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6098320482002935,
+    "octid_normal_recall": 0.9077669902912622,
+    "octid_abnormal_recall": 0.31189710610932475
+  },
+  {
+    "features": "v2 all + NDT",
+    "model": "RF (paper config)",
+    "within_bacc": 0.7221584572637665,
+    "within_ci": [
+      0.6941981640058794,
+      0.7451187316776636
+    ],
+    "ext_bacc": 0.5544283379754311,
+    "ext_acc": 0.7157894736842105,
+    "ext_cm": [
+      [
+        138,
+        3,
+        191
+      ],
+      [
+        5,
+        61,
+        81
+      ],
+      [
+        32,
+        174,
+        1025
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.700433927512253,
+    "octid_normal_recall": 0.8349514563106796,
+    "octid_abnormal_recall": 0.5659163987138264
+  },
+  {
+    "features": "v2 all + NDT",
+    "model": "Gradient boosting",
+    "within_bacc": 0.7490738432881776,
+    "within_ci": [
+      0.7257397061283454,
+      0.7756759019822616
+    ],
+    "ext_bacc": 0.6595234644153075,
+    "ext_acc": 0.764327485380117,
+    "ext_cm": [
+      [
+        218,
+        7,
+        107
+      ],
+      [
+        7,
+        73,
+        67
+      ],
+      [
+        70,
+        145,
+        1016
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.6603034370805108,
+    "octid_normal_recall": 0.8543689320388349,
+    "octid_abnormal_recall": 0.4662379421221865
+  },
+  {
+    "features": "v2 all + NDT",
+    "model": "Logistic regression",
+    "within_bacc": 0.7573288321638829,
+    "within_ci": [
+      0.7376461456813047,
+      0.7827639226405461
+    ],
+    "ext_bacc": 0.6599561982962826,
+    "ext_acc": 0.683625730994152,
+    "ext_cm": [
+      [
+        275,
+        16,
+        41
+      ],
+      [
+        31,
+        71,
+        45
+      ],
+      [
+        155,
+        253,
+        823
+      ]
+    ],
+    "octid_normal_vs_abnormal_bacc": 0.5889317266568851,
+    "octid_normal_recall": 0.9077669902912622,
+    "octid_abnormal_recall": 0.27009646302250806
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.8360566448801743,
+    "with_bacc": 0.8502178649237474,
+    "diff_mean": 0.014161220043573008,
+    "diff_per_repeat": [
+      0.0343,
+      0.0163,
+      -0.0082
+    ],
+    "diff_ci": [
+      -0.003633527961360541,
+      0.07357628641064778
+    ],
+    "p_one_sided": 0.038
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.8360566448801743,
+    "with_bacc": 0.8474945533769064,
+    "diff_mean": 0.01143790849673206,
+    "diff_per_repeat": [
+      0.0408,
+      0.0131,
+      -0.0196
+    ],
+    "diff_ci": [
+      0.004840349882643005,
+      0.07964197232263431
+    ],
+    "p_one_sided": 0.0135
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.8191721132897604,
+    "with_bacc": 0.8502178649237474,
+    "diff_mean": 0.03104575163398693,
+    "diff_per_repeat": [
+      0.0327,
+      0.0458,
+      0.0147
+    ],
+    "diff_ci": [
+      -0.0021836452439901255,
+      0.06947063835665455
+    ],
+    "p_one_sided": 0.034
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.8191721132897604,
+    "with_bacc": 0.8529411764705882,
+    "diff_mean": 0.03376906318082784,
+    "diff_per_repeat": [
+      0.0294,
+      0.0327,
+      0.0392
+    ],
+    "diff_ci": [
+      -0.00651810338398903,
+      0.06595349289688844
+    ],
+    "p_one_sided": 0.055
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.8394308726121787,
+    "with_bacc": 0.8401110209682882,
+    "diff_mean": 0.0006801483561092262,
+    "diff_per_repeat": [
+      0.0157,
+      -0.0072,
+      -0.0065
+    ],
+    "diff_ci": [
+      -0.013888611936949088,
+      0.04704014411635375
+    ],
+    "p_one_sided": 0.163
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.8394308726121787,
+    "with_bacc": 0.845822043241275,
+    "diff_mean": 0.00639117062909611,
+    "diff_per_repeat": [
+      0.017,
+      0.006,
+      -0.0039
+    ],
+    "diff_ci": [
+      -0.009816879426313038,
+      0.0448125721949598
+    ],
+    "p_one_sided": 0.1075
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.8476671541495647,
+    "with_bacc": 0.8681063720894097,
+    "diff_mean": 0.020439217939845045,
+    "diff_per_repeat": [
+      0.0344,
+      0.0013,
+      0.0256
+    ],
+    "diff_ci": [
+      0.0059920443463486765,
+      0.061903827359539136
+    ],
+    "p_one_sided": 0.006
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.8476671541495647,
+    "with_bacc": 0.8639068729751225,
+    "diff_mean": 0.016239718825557675,
+    "diff_per_repeat": [
+      0.0342,
+      -0.0049,
+      0.0195
+    ],
+    "diff_ci": [
+      0.006871806090988489,
+      0.062213827174691996
+    ],
+    "p_one_sided": 0.0065
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.6642008003866674,
+    "with_bacc": 0.6887566513432696,
+    "diff_mean": 0.024555850956602104,
+    "diff_per_repeat": [
+      0.0241,
+      0.0324,
+      0.0171
+    ],
+    "diff_ci": [
+      -0.008229000976325642,
+      0.05530312009920286
+    ],
+    "p_one_sided": 0.06
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.6642008003866674,
+    "with_bacc": 0.6817712171902112,
+    "diff_mean": 0.017570416803543654,
+    "diff_per_repeat": [
+      0.0191,
+      0.0147,
+      0.0189
+    ],
+    "diff_ci": [
+      -0.013422972452233894,
+      0.04853095015711431
+    ],
+    "p_one_sided": 0.1135
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.6094577839146379,
+    "with_bacc": 0.6358468962350662,
+    "diff_mean": 0.026389112320428326,
+    "diff_per_repeat": [
+      0.0241,
+      0.0245,
+      0.0306
+    ],
+    "diff_ci": [
+      0.006483197659157664,
+      0.04250643529525608
+    ],
+    "p_one_sided": 0.003
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.6094577839146379,
+    "with_bacc": 0.6411382966446751,
+    "diff_mean": 0.03168051273003725,
+    "diff_per_repeat": [
+      0.0376,
+      0.032,
+      0.0254
+    ],
+    "diff_ci": [
+      0.016436081110011387,
+      0.05957312843915813
+    ],
+    "p_one_sided": 0.0005
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.6502591968751678,
+    "with_bacc": 0.6770247348562738,
+    "diff_mean": 0.026765537981106036,
+    "diff_per_repeat": [
+      0.0441,
+      0.0295,
+      0.0067
+    ],
+    "diff_ci": [
+      0.004911766684249352,
+      0.0801834212604803
+    ],
+    "p_one_sided": 0.011
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.6502591968751678,
+    "with_bacc": 0.676910331589044,
+    "diff_mean": 0.02665113471387633,
+    "diff_per_repeat": [
+      0.0491,
+      0.0253,
+      0.0055
+    ],
+    "diff_ci": [
+      0.012137773882853331,
+      0.08458703621327417
+    ],
+    "p_one_sided": 0.009
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.5920593718725694,
+    "with_bacc": 0.6057759422295973,
+    "diff_mean": 0.013716570357027965,
+    "diff_per_repeat": [
+      0.0057,
+      0.0139,
+      0.0216
+    ],
+    "diff_ci": [
+      -0.014701212246702016,
+      0.02545482286400204
+    ],
+    "p_one_sided": 0.2805
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.5920593718725694,
+    "with_bacc": 0.6192463764664459,
+    "diff_mean": 0.027187004593876612,
+    "diff_per_repeat": [
+      0.0247,
+      0.0238,
+      0.0331
+    ],
+    "diff_ci": [
+      0.0004980786036386382,
+      0.058086599028130105
+    ],
+    "p_one_sided": 0.0225
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.6643283899257638,
+    "with_bacc": 0.6757395792283111,
+    "diff_mean": 0.011411189302547068,
+    "diff_per_repeat": [
+      0.0083,
+      0.0134,
+      0.0125
+    ],
+    "diff_ci": [
+      -0.006800019272111646,
+      0.023216139266926453
+    ],
+    "p_one_sided": 0.1355
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.6643283899257638,
+    "with_bacc": 0.675740057620985,
+    "diff_mean": 0.011411667695221062,
+    "diff_per_repeat": [
+      0.0108,
+      0.0121,
+      0.0113
+    ],
+    "diff_ci": [
+      -0.0035542378849772573,
+      0.02538042807329281
+    ],
+    "p_one_sided": 0.067
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.6815748262093733,
+    "with_bacc": 0.6849105253251402,
+    "diff_mean": 0.0033356991157669214,
+    "diff_per_repeat": [
+      0.0058,
+      0.0025,
+      0.0017
+    ],
+    "diff_ci": [
+      -0.007805079725149208,
+      0.01964490439556667
+    ],
+    "p_one_sided": 0.1945
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.6815748262093733,
+    "with_bacc": 0.6847665507046338,
+    "diff_mean": 0.003191724495260543,
+    "diff_per_repeat": [
+      0.0108,
+      -0.0008,
+      -0.0004
+    ],
+    "diff_ci": [
+      -0.0026759004689865364,
+      0.02539077748328993
+    ],
+    "p_one_sided": 0.066
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "Logistic regression",
+    "added": "NDT",
+    "base_bacc": 0.6948423588168939,
+    "with_bacc": 0.7135820094631495,
+    "diff_mean": 0.0187396506462556,
+    "diff_per_repeat": [
+      0.0323,
+      0.02,
+      0.0039
+    ],
+    "diff_ci": [
+      0.012569426821747743,
+      0.05231080671957291
+    ],
+    "p_one_sided": 0.001
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "Logistic regression",
+    "added": "NDT robust",
+    "base_bacc": 0.6948423588168939,
+    "with_bacc": 0.7065313282107755,
+    "diff_mean": 0.011688969393881496,
+    "diff_per_repeat": [
+      0.0245,
+      0.0111,
+      -0.0005
+    ],
+    "diff_ci": [
+      0.005917610270587961,
+      0.04329484180373716
+    ],
+    "p_one_sided": 0.004
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "LightGBM",
+    "added": "NDT",
+    "base_bacc": 0.724659127516322,
+    "with_bacc": 0.7228215052207675,
+    "diff_mean": -0.0018376222955546195,
+    "diff_per_repeat": [
+      -0.0028,
+      -0.0044,
+      0.0017
+    ],
+    "diff_ci": [
+      -0.019417437189451985,
+      0.01369450639621755
+    ],
+    "p_one_sided": 0.655
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "LightGBM",
+    "added": "NDT robust",
+    "base_bacc": 0.724659127516322,
+    "with_bacc": 0.7302335747452582,
+    "diff_mean": 0.005574447228936186,
+    "diff_per_repeat": [
+      0.0078,
+      0.0078,
+      0.0011
+    ],
+    "diff_ci": [
+      -0.007093020903207531,
+      0.02156674913367616
+    ],
+    "p_one_sided": 0.139
+  }
+]

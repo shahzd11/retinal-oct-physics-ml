@@ -1,0 +1,19 @@
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+[Parallel(n_jobs=6)]: Done   6 tasks      | elapsed:    8.7s
+[Parallel(n_jobs=6)]: Done  60 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=6)]: Done 120 out of 120 | elapsed:  2.6min finished
+Kermany (Spectralis)   cyst    NDT half-max       a50   83.5  a90  138.7  a90/95  149.1 um   sizing x0.73  n=1587
+Kermany (Spectralis)   cyst    v2 fixed-fraction  a50   92.0  a90  132.6  a90/95  138.2 um   sizing x0.75  n=1587
+Kermany (Spectralis)   cyst_px NDT half-max       a50   35.8  a90   56.3  a90/95   61.7 um   sizing x0.91  n=1656
+Kermany (Spectralis)   cyst_px v2 fixed-fraction  a50   41.0  a90   60.9  a90/95   65.0 um   sizing x0.85  n=1656
+Kermany (Spectralis)   srf     NDT half-max       a50   35.4  a90   52.1  a90/95   58.8 um   sizing x0.97  n=1550
+Kermany (Spectralis)   srf     v2 fixed-fraction  a50   43.9  a90   57.5  a90/95   63.5 um   sizing x0.92  n=1550
+Kermany (Spectralis)   false-call rate (any call on a healthy scan): {'NDT half-max': 0.3, 'v2 fixed-fraction': 0.15}
+OCTDL (Optovue)        cyst    NDT half-max       a50   80.7  a90  127.6  a90/95  139.0 um   sizing x0.74  n=1578
+OCTDL (Optovue)        cyst    v2 fixed-fraction  a50   94.8  a90  123.0  a90/95  128.1 um   sizing x0.74  n=1578
+OCTDL (Optovue)        cyst_px NDT half-max       a50   33.9  a90   45.0  a90/95   46.9 um   sizing x0.89  n=1672
+OCTDL (Optovue)        cyst_px v2 fixed-fraction  a50   40.3  a90   50.0  a90/95   51.7 um   sizing x0.83  n=1672
+OCTDL (Optovue)        srf     NDT half-max       a50   33.4  a90   53.5  a90/95   59.7 um   sizing x0.98  n=1647
+OCTDL (Optovue)        srf     v2 fixed-fraction  a50   42.9  a90   55.1  a90/95   57.8 um   sizing x0.92  n=1647
+OCTDL (Optovue)        false-call rate (any call on a healthy scan): {'NDT half-max': 0.4666666666666667, 'v2 fixed-fraction': 0.31666666666666665}
+saved results\v3\mapod.json

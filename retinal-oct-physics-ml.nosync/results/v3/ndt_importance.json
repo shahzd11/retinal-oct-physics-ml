@@ -1,0 +1,110 @@
+{
+  "OCTID CSR/DR/MH (500x750)": {
+    "Logistic regression": {
+      "ALL v2": 0.4031,
+      "ALL NDT": 0.1487,
+      "v2 band: rpe": 0.0589,
+      "v2 band: inner": 0.0441,
+      "v2 band: outer": 0.0415,
+      "NDT: speckle": 0.0309,
+      "v2 band: choroid": 0.0303,
+      "v2 disease: reflectivity/RPE": 0.0277,
+      "v2 disease: thickness/fovea": 0.0232,
+      "NDT: interface contrast": 0.0112,
+      "NDT: attenuation": 0.0075,
+      "v2 disease: fluid": 0.0028,
+      "NDT: half-max sizing": 0.0001,
+      "NDT: SNR/CNR": -0.0007,
+      "NDT: shadowing": -0.0078
+    },
+    "LightGBM": {
+      "ALL v2": 0.4199,
+      "ALL NDT": 0.142,
+      "v2 band: rpe": 0.0721,
+      "v2 band: inner": 0.065,
+      "v2 band: outer": 0.0347,
+      "v2 disease: thickness/fovea": 0.0285,
+      "NDT: half-max sizing": 0.0148,
+      "v2 band: choroid": 0.0124,
+      "NDT: attenuation": 0.0099,
+      "NDT: interface contrast": 0.0042,
+      "NDT: speckle": 0.0017,
+      "v2 disease: fluid": -0.0019,
+      "v2 disease: reflectivity/RPE": -0.002,
+      "NDT: shadowing": -0.0038,
+      "NDT: SNR/CNR": -0.0095
+    }
+  },
+  "OCTDL 6 diseases": {
+    "Logistic regression": {
+      "ALL v2": 0.4476,
+      "ALL NDT": 0.1898,
+      "v2 band: outer": 0.1768,
+      "v2 band: inner": 0.156,
+      "v2 band: rpe": 0.1256,
+      "NDT: attenuation": 0.0915,
+      "v2 disease: thickness/fovea": 0.0668,
+      "NDT: interface contrast": 0.0656,
+      "v2 band: choroid": 0.0586,
+      "NDT: half-max sizing": 0.0508,
+      "v2 disease: reflectivity/RPE": 0.0359,
+      "NDT: speckle": 0.0323,
+      "v2 disease: fluid": 0.0262,
+      "NDT: shadowing": 0.0233,
+      "NDT: SNR/CNR": 0.0198
+    },
+    "LightGBM": {
+      "ALL v2": 0.366,
+      "ALL NDT": 0.3001,
+      "v2 band: outer": 0.1337,
+      "NDT: attenuation": 0.1186,
+      "v2 band: inner": 0.0812,
+      "NDT: interface contrast": 0.0372,
+      "v2 disease: thickness/fovea": 0.0318,
+      "v2 band: rpe": 0.0306,
+      "NDT: speckle": 0.0177,
+      "NDT: half-max sizing": 0.0173,
+      "v2 band: choroid": 0.0142,
+      "v2 disease: reflectivity/RPE": 0.013,
+      "NDT: shadowing": 0.008,
+      "v2 disease: fluid": 0.0078,
+      "NDT: SNR/CNR": 0.0059
+    }
+  },
+  "Kermany CNV/DME/DRUSEN": {
+    "Logistic regression": {
+      "ALL v2": 0.2586,
+      "ALL NDT": 0.171,
+      "v2 band: outer": 0.0982,
+      "v2 band: inner": 0.0937,
+      "NDT: interface contrast": 0.0622,
+      "v2 band: choroid": 0.0529,
+      "v2 band: rpe": 0.0479,
+      "v2 disease: thickness/fovea": 0.0479,
+      "NDT: attenuation": 0.0426,
+      "NDT: SNR/CNR": 0.0359,
+      "NDT: speckle": 0.0352,
+      "NDT: half-max sizing": 0.0305,
+      "v2 disease: reflectivity/RPE": 0.0254,
+      "NDT: shadowing": 0.0107,
+      "v2 disease: fluid": 0.007
+    },
+    "LightGBM": {
+      "ALL v2": 0.2443,
+      "ALL NDT": 0.1231,
+      "v2 disease: thickness/fovea": 0.0456,
+      "NDT: interface contrast": 0.0366,
+      "v2 band: outer": 0.036,
+      "v2 band: inner": 0.0359,
+      "v2 band: choroid": 0.0227,
+      "NDT: attenuation": 0.0091,
+      "v2 band: rpe": 0.007,
+      "NDT: half-max sizing": 0.0066,
+      "v2 disease: reflectivity/RPE": 0.005,
+      "NDT: speckle": 0.0007,
+      "v2 disease: fluid": 0.0002,
+      "NDT: SNR/CNR": -0.0008,
+      "NDT: shadowing": -0.0016
+    }
+  }
+}
