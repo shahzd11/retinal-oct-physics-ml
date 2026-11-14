@@ -1,0 +1,25 @@
+{
+  "paper_8020": {
+    "protocol": "OCTID 4-class, stratified 80/20, seed 42 (scanner-confounded)",
+    "n_test": 104,
+    "acc": 0.6826923076923077,
+    "bacc": 0.6099567099567099
+  },
+  "paper_cv_octid_dis750": {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "RF (paper config), 300 grid H+S",
+    "bacc": 0.5021786492374727,
+    "bacc_sd": 0.02951245573887597,
+    "bacc_ci": [
+      0.4742808917526653,
+      0.5872436889359114
+    ],
+    "acc": 0.5012254901960785,
+    "macro_f1": 0.5016689039523564,
+    "bacc_per_seed": [
+      0.5359477124183006,
+      0.5065359477124183,
+      0.4640522875816993
+    ]
+  }
+}

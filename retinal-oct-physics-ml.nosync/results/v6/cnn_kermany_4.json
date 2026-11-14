@@ -1,0 +1,26 @@
+{
+  "task": "Kermany 4-class",
+  "n": 2401,
+  "classes": [
+    "CNV",
+    "DME",
+    "DRUSEN",
+    "NORMAL"
+  ],
+  "epochs": 8,
+  "n_splits": 5,
+  "seed_folds": 0,
+  "device": "mps",
+  "minutes": 49.87006176710129,
+  "bacc": 0.8674994692659954,
+  "bacc_sd": 0.0,
+  "bacc_ci": [
+    0.8507505104689919,
+    0.8845872016973029
+  ],
+  "acc": 0.8675551853394419,
+  "macro_f1": 0.8664546986518429,
+  "bacc_per_seed": [
+    0.8674994692659954
+  ]
+}

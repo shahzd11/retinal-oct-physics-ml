@@ -1,0 +1,38 @@
+{
+  "source": "paper/Banerjee_Sarkar_Munshi_2025.pdf",
+  "multiclass_accuracy": {
+    "value": 0.71,
+    "quote": "essly detects the presence of an anomaly, the overall multiclass classification accuracy across all four conditions stabilized at 71%. In the context of deterministic physics, this ceiling does not represent an al"
+  },
+  "normal_triage_precision_recall": {
+    "value": 1.0,
+    "quote": "ard. As demonstrated in the confusion matrix (Fig. 3), the deterministic engine achieved a 1.00 Recall and 1.00 Precision rate for NORMAL tissue. It guaranteed the absolute separation of healthy retina from diseased r"
+  },
+  "n_test_scans": {
+    "value": 104,
+    "quote": "e dataset of 517 scans was partitioned using a stratified 80/20 split, strictly holding back 104 blind scans for the final evaluation phase to accurately simulate a zero-knowledge clinical"
+  },
+  "n_scans_total": {
+    "value": 517,
+    "quote": "sis. Strict geometric normalization and spatial micro-slicing were applied to a dataset of 517 OCT scans, ensuring the preservation of localized structural geometry without interpolati"
+  },
+  "top15_hurst_fraction": {
+    "value": 1.0,
+    "quote": "he primary indicator of retinal disease. When queried for its diagnostic logic, 100% of the top 15 most critical biomarkers selected by the armored engine were Hurst Coefficients (H). The KT-1"
+  },
+  "top_grid_rows": {
+    "value": [
+      7,
+      8
+    ],
+    "quote": "ely to Grids 106 through 133 (see Fig. 7). Geometrically, these grids perfectly map to Rows 7 and 8 of the 750 \u00d7 500 tomographic slice. Fig. 6. Explainable AI Feature Importance."
+  },
+  "entropy_discarded_for_collinearity": {
+    "value": true,
+    "quote": "t feature collinearity and successfully stabilize the mathematical phase space, Shannon entropy was explicitly discarded. Evaluated utilizing a class-weighted Random Forest classifier, the model auton"
+  },
+  "triage_guarantee_wording": {
+    "value": true,
+    "quote": "gine achieved a flawless 100% precision and recall for healthy baseline triage, mathematically guaranteeing the absolute separation of normal and diseased tissue. Overall anomaly classification reached 71% accuracy, successfully identifying"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "task": "OCTID CSR/DR/MH (500x750)",
+  "model": "v5 soft vote (171 features)",
+  "bands": [
+    "inner",
+    "outer",
+    "rpe",
+    "choroid"
+  ],
+  "families": [
+    "Hurst H",
+    "NMSID roughness",
+    "lacunarity",
+    "entropy",
+    "reflectivity (mean, std)",
+    "KT-1 slope",
+    "coherence"
+  ],
+  "importance": {
+    "Hurst H": {
+      "inner": 0.006007326007325968,
+      "outer": 0.005174603174603152,
+      "rpe": 0.00631746031746029,
+      "choroid": 0.005238095238095193
+    },
+    "NMSID roughness": {
+      "inner": 0.0019999999999999797,
+      "outer": 0.0032063492063491685,
+      "rpe": 0.01411233211233207,
+      "choroid": 0.004222222222222198
+    },
+    "lacunarity": {
+      "inner": 0.003975579975579961,
+      "outer": 0.01255189255189253,
+      "rpe": 0.011533577533577479,
+      "choroid": 0.0033431013431013137
+    },
+    "entropy": {
+      "inner": 0.008412698412698387,
+      "outer": 0.0023174603174603136,
+      "rpe": 0.0021269841269840883,
+      "choroid": 0.007809523809523782
+    },
+    "reflectivity (mean, std)": {
+      "inner": -0.003638583638583661,
+      "outer": 0.002879120879120851,
+      "rpe": 0.0010891330891330674,
+      "choroid": 0.003619047619047584
+    },
+    "KT-1 slope": {
+      "inner": 0.008888888888888861,
+      "outer": 0.026612942612942562,
+      "rpe": 0.010231990231990208,
+      "choroid": 0.004984126984126957
+    },
+    "coherence": {
+      "inner": 0.007238095238095199,
+      "outer": 0.028644688644688596,
+      "rpe": 0.008993894993894948,
+      "choroid": 0.0026031746031745496
+    }
+  },
+  "note": "drop in balanced accuracy when the group is permuted in held-out folds (seed-0 folds)"
+}
