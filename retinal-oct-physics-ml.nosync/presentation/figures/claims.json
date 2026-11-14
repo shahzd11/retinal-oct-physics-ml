@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Multiclass accuracy 71% on 104 test scans",
+    "found": "Reproduced: 68.3% on the same 80/20 split; 5-fold CV 72.9%",
+    "verdict": "holds",
+    "evidence": "results/results.json, results/sanity_checks.json"
+  },
+  {
+    "claim": "NORMAL triage precision/recall 1.00, 'mathematically guaranteed'",
+    "found": "Scanner confound: image size alone separates NORMAL with 100%; resized disease scans called NORMAL 63/63. A stated guarantee via conformal prediction: ABNORMAL coverage 0.945 at target 0.95 (OCTDL)",
+    "verdict": "does not hold as stated",
+    "evidence": "results/sanity_checks.json, results/v6/conformal.json"
+  },
+  {
+    "claim": "Top-15 features are 100% Hurst, in rows 7\u20138: 'autonomous localisation'",
+    "found": "Reproduced (100% Hurst), but rows 7\u20138 track retina position: POD mode 2 vs tissue height \u03c1 = -0.92; destroying location (sorting cells) raises disease-only accuracy 0.55 \u2192 0.61",
+    "verdict": "partly position",
+    "evidence": "results/results.json, results/v5/rom.json, results/v2/octid_controls.json"
+  },
+  {
+    "claim": "Shannon entropy discarded because collinear with H",
+    "found": "Adding grid entropy improves OCTID 4-class balanced accuracy 0.694 \u2192 0.722 (best model)",
+    "verdict": "does not hold",
+    "evidence": "results/v2/octid_model_grid.csv"
+  },
+  {
+    "claim": "KT-1 and Hurst carry diagnostic signal",
+    "found": "Yes, once measured inside anatomical layers: top group is coherence in the outer band; paper grid 0.50 vs anatomy-aware features on the honest OCTID task",
+    "verdict": "holds (in anatomy)",
+    "evidence": "results/v6/importance_band_family.json, results/v6/baselines.json"
+  },
+  {
+    "claim": "Physics engine is explainable where black boxes are not",
+    "found": "Explainability holds; a fine-tuned CNN is more accurate (0.93 vs hybrid 0.90 on OCTID CSR/DR/MH); Grad-CAM vs physics band importance \u03c1 = -0.22",
+    "verdict": "holds, at a cost",
+    "evidence": "results/v6/cnn_octid_dis750.json, results/v6/hybrid_octid_dis750.json, results/v6/gradcam_octid_dis750.json"
+  }
+]

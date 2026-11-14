@@ -1,0 +1,668 @@
+[
+ {
+  "slide": 3,
+  "label": "paper reported multiclass accuracy",
+  "value": 0.71,
+  "source": "results/v6/paper_claims.json"
+ },
+ {
+  "slide": 3,
+  "label": "paper reported NORMAL precision and recall",
+  "value": 1.0,
+  "source": "results/v6/paper_claims.json"
+ },
+ {
+  "slide": 3,
+  "label": "paper test scans",
+  "value": 104,
+  "source": "results/v6/paper_claims.json"
+ },
+ {
+  "slide": 4,
+  "label": "KT-1 slope healthy example cell",
+  "value": 0.027781889427567,
+  "source": "results/v6/figdata.npz"
+ },
+ {
+  "slide": 4,
+  "label": "KT-1 slope CSR example cell",
+  "value": 0.025381210338035864,
+  "source": "results/v6/figdata.npz"
+ },
+ {
+  "slide": 5,
+  "label": "H smooth example cell",
+  "value": 0.5396522234374436,
+  "source": "results/v6/figdata.npz"
+ },
+ {
+  "slide": 5,
+  "label": "H rough example cell",
+  "value": 0.26477425853524333,
+  "source": "results/v6/figdata.npz"
+ },
+ {
+  "slide": 6,
+  "label": "octid scans",
+  "value": 517,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octid patients",
+  "value": 517,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octid CSR",
+  "value": 102,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octid DR",
+  "value": 107,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octid MH",
+  "value": 102,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octid NORMAL",
+  "value": 206,
+  "source": "results/v4/octid_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany scans",
+  "value": 2401,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany patients",
+  "value": 864,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany CNV",
+  "value": 601,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany DME",
+  "value": 598,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany DRUSEN",
+  "value": 600,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "kermany NORMAL",
+  "value": 602,
+  "source": "results/v4/kermany_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl scans",
+  "value": 2064,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl patients",
+  "value": 820,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl AMD",
+  "value": 1231,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl DME",
+  "value": 147,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl ERM",
+  "value": 155,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl NORMAL",
+  "value": 332,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl RAO",
+  "value": 22,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl RVO",
+  "value": 101,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 6,
+  "label": "octdl VID",
+  "value": 76,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 7,
+  "label": "our accuracy on paper split",
+  "value": 0.6826923076923077,
+  "source": "results/results.json"
+ },
+ {
+  "slide": 7,
+  "label": "our 5-fold CV accuracy",
+  "value": 0.728603435399552,
+  "source": "results/sanity_checks.json"
+ },
+ {
+  "slide": 7,
+  "label": "our NORMAL precision",
+  "value": 1.0,
+  "source": "results/results.json"
+ },
+ {
+  "slide": 7,
+  "label": "our NORMAL recall",
+  "value": 1.0,
+  "source": "results/results.json"
+ },
+ {
+  "slide": 7,
+  "label": "our top-15 Hurst fraction",
+  "value": 1.0,
+  "source": "results/results.json"
+ },
+ {
+  "slide": 7,
+  "label": "paper top15 hurst",
+  "value": 1.0,
+  "source": "results/v6/paper_claims.json"
+ },
+ {
+  "slide": 8,
+  "label": "disease scans called NORMAL after resizing",
+  "value": "63/63",
+  "source": "results/sanity_checks.json"
+ },
+ {
+  "slide": 8,
+  "label": "image size alone NORMAL vs disease accuracy",
+  "value": 1.0,
+  "source": "results/sanity_checks.json"
+ },
+ {
+  "slide": 8,
+  "label": "Spearman upsampling vs mean H",
+  "value": 0.8162993133461979,
+  "source": "results/sanity_checks.json"
+ },
+ {
+  "slide": 8,
+  "label": "paper method on OCTID CSR/DR/MH 500x750",
+  "value": 0.5021786492374727,
+  "source": "results/v6/baselines.json"
+ },
+ {
+  "slide": 9,
+  "label": "paper grid estimator at true H 0.1",
+  "value": 0.21865589389066972,
+  "source": "results/v4/fractal_validation.json"
+ },
+ {
+  "slide": 9,
+  "label": "after upsampling at true H 0.1",
+  "value": 0.26242329594544084,
+  "source": "results/v4/fractal_validation.json"
+ },
+ {
+  "slide": 11,
+  "label": "v2 OCTID CSR/DR/MH",
+  "value": 0.8360566448801743,
+  "source": "results/v2/octid_model_grid.csv"
+ },
+ {
+  "slide": 11,
+  "label": "paper RF OCTID CSR/DR/MH",
+  "value": 0.5038126361655774,
+  "source": "results/v2/octid_model_grid.csv"
+ },
+ {
+  "slide": 11,
+  "label": "v2 Kermany 4-class",
+  "value": 0.6832058169876627,
+  "source": "results/v2/kermany_model_grid.csv"
+ },
+ {
+  "slide": 11,
+  "label": "v2 OCTDL 7-class",
+  "value": 0.6611917502845057,
+  "source": "results/v2/octdl_model_grid.csv"
+ },
+ {
+  "slide": 12,
+  "label": "v3 OCTID CSR/DR/MH",
+  "value": 0.8545751633986929,
+  "source": "results/v3/octid_model_grid.csv"
+ },
+ {
+  "slide": 12,
+  "label": "MAPOD a90 subretinal fluid (Kermany, NDT half-max)",
+  "value": 52.078999358336304,
+  "source": "results/v3/mapod.json"
+ },
+ {
+  "slide": 12,
+  "label": "MAPOD a90/95 subretinal fluid",
+  "value": 58.81541664357342,
+  "source": "results/v3/mapod.json"
+ },
+ {
+  "slide": 13,
+  "label": "v4 boundary fractal paired difference OCTID LR",
+  "value": 0.020152505446623097,
+  "source": "results/v4/fractal_paired_test.json"
+ },
+ {
+  "slide": 13,
+  "label": "v4 paired one-sided p",
+  "value": 0.065,
+  "source": "results/v4/fractal_paired_test.json"
+ },
+ {
+  "slide": 13,
+  "label": "v4 OCTID CSR/DR/MH",
+  "value": 0.8676470588235294,
+  "source": "results/v4/fractal_paired_test.json"
+ },
+ {
+  "slide": 14,
+  "label": "modes for 95% energy, paper H field OCTID",
+  "value": 44,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 14,
+  "label": "modes for 95% energy, v2 H field OCTID",
+  "value": 13,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 14,
+  "label": "POD mode 2 vs tissue height",
+  "value": -0.9155183279808382,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 16,
+  "label": "Spearman energy vs class signal OCTID",
+  "value": -0.17973733583489682,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 16,
+  "label": "Spearman energy vs class signal Kermany",
+  "value": 0.11669793621013136,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 16,
+  "label": "most discriminative OCTID mode",
+  "value": 33,
+  "source": "results/v5/rom.json"
+ },
+ {
+  "slide": 17,
+  "label": "v5 soft vote Kermany 4-class",
+  "value": 0.6954546131298708,
+  "source": "results/v5/ensemble.json"
+ },
+ {
+  "slide": 17,
+  "label": "vote minus best single Kermany",
+  "value": 0.015133224097921394,
+  "source": "results/v5/ensemble.json"
+ },
+ {
+  "slide": 17,
+  "label": "vote vs single p Kermany",
+  "value": 0.0365,
+  "source": "results/v5/ensemble.json"
+ },
+ {
+  "slide": 18,
+  "label": "top family x band importance",
+  "value": 0.028644688644688596,
+  "source": "results/v6/importance_band_family.json"
+ },
+ {
+  "slide": 18,
+  "label": "KT-1 outer band importance",
+  "value": 0.026612942612942562,
+  "source": "results/v6/importance_band_family.json"
+ },
+ {
+  "slide": 19,
+  "label": "headline hybrid ResNet-18 OCTID CSR/DR/MH",
+  "value": 0.9035947712418301,
+  "source": "results/v6/hybrid_octid_dis750.json"
+ },
+ {
+  "slide": 19,
+  "label": "headline hybrid ResNet-18 OCTDL 7-class",
+  "value": 0.708087112733908,
+  "source": "results/v6/hybrid_octdl_7.json"
+ },
+ {
+  "slide": 19,
+  "label": "headline hybrid ResNet-18 Kermany 4-class",
+  "value": 0.7304370193326711,
+  "source": "results/v6/hybrid_kermany_4.json"
+ },
+ {
+  "slide": 20,
+  "label": "OCTDL triage ABNORMAL coverage alpha 0.05",
+  "value": 0.9448614318706698,
+  "source": "results/v6/conformal.json"
+ },
+ {
+  "slide": 20,
+  "label": "OCTDL triage mean set size alpha 0.05",
+  "value": 1.0438468992248062,
+  "source": "results/v6/conformal.json"
+ },
+ {
+  "slide": 20,
+  "label": "OCTDL triage singleton accuracy alpha 0.05",
+  "value": 0.9470553787792415,
+  "source": "results/v6/conformal.json"
+ },
+ {
+  "slide": 20,
+  "label": "binomial SE of coverage at 0.95 (OCTDL abnormal eyes)",
+  "value": 0.005236882876605075,
+  "source": "results/v4/octdl_features.csv"
+ },
+ {
+  "slide": 21,
+  "label": "cross-scanner best config balanced accuracy",
+  "value": 0.7530534889548525,
+  "source": "results/v6/cross.json"
+ },
+ {
+  "slide": 21,
+  "label": "cross-scanner best config DME recall",
+  "value": 0.619,
+  "source": "results/v6/cross.json"
+ },
+ {
+  "slide": 22,
+  "label": "residual AUROC Kermany r=25",
+  "value": 0.7000151431489255,
+  "source": "results/v6/residual_auroc.json"
+ },
+ {
+  "slide": 22,
+  "label": "residual AUROC OCTDL r=25",
+  "value": 0.6963060092564252,
+  "source": "results/v6/residual_auroc.json"
+ },
+ {
+  "slide": 22,
+  "label": "residual AUROC Kermany->OCTDL r=25",
+  "value": 0.6913954895795653,
+  "source": "results/v6/residual_auroc.json"
+ },
+ {
+  "slide": 22,
+  "label": "image-POD alone best OCTID",
+  "value": 0.6955337690631809,
+  "source": "results/v6/image_pod_octid_dis750.json"
+ },
+ {
+  "slide": 22,
+  "label": "v5+image-POD minus v5 OCTID",
+  "value": 0.014705882352941124,
+  "source": "results/v6/image_pod_octid_dis750.json"
+ },
+ {
+  "slide": 22,
+  "label": "v5+image-POD vs v5 p OCTID",
+  "value": 0.141,
+  "source": "results/v6/image_pod_octid_dis750.json"
+ },
+ {
+  "slide": 23,
+  "label": "headline hybrid ResNet-18 OCTID",
+  "value": 0.9035947712418301,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "CNN OCTID",
+  "value": 0.9346405228758169,
+  "source": "results/v6/cnn_octid_dis750.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN OCTID diff",
+  "value": -0.035947712418300526,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN OCTID CI lo",
+  "value": -0.07624756755709115,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN OCTID CI hi",
+  "value": 0.002830552037369242,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN Kermany 4-class diff",
+  "value": -0.1408112882325918,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN Kermany 4-class CI lo",
+  "value": -0.1623160858170153,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN Kermany 4-class CI hi",
+  "value": -0.1196183760344031,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN new scanner diff",
+  "value": -0.17239477980224405,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN new scanner CI lo",
+  "value": -0.20576188098331785,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - CNN new scanner CI hi",
+  "value": -0.13764446084327012,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 OCTID",
+  "value": 0.02450980392156865,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 OCTDL 7-class",
+  "value": 0.04487100867644078,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 OCTDL 6-disease",
+  "value": 0.02763729170987783,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 Kermany 4-class",
+  "value": 0.03207522001369123,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 Kermany 3-disease",
+  "value": 0.02723530273772623,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 23,
+  "label": "hybrid ResNet-18 - v5 new scanner",
+  "value": 0.043747840158969264,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "physics gain min (OCTDL, Kermany)",
+  "value": 0.03264207969385524,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "physics gain max (OCTDL, Kermany)",
+  "value": 0.04118420659403077,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "physics gain OCTID",
+  "value": -0.004357298474945592,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 OCTID",
+  "value": -0.017973856209150263,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 OCTDL 7-class",
+  "value": 0.05088240904437935,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 OCTDL 6-disease",
+  "value": 0.03509862716879342,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 Kermany 4-class",
+  "value": 0.03379613491052713,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 Kermany 3-disease",
+  "value": 0.03616130615949764,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "paired hybrid - embedding ResNet-18 new scanner",
+  "value": 0.01589662972807271,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "DINOv2 physics gain min",
+  "value": 0.033224400871459725,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 24,
+  "label": "DINOv2 physics gain max",
+  "value": 0.08799236015207124,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 25,
+  "label": "headline hybrid OCTID (heat map)",
+  "value": 0.9035947712418301,
+  "source": "results/v6/ablation.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: Multiclass accuracy 71% on 104 test scans",
+  "value": "holds",
+  "source": "presentation/figures/claims.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: NORMAL triage precision/recall 1.00, 'mathematical",
+  "value": "does not hold as stated",
+  "source": "presentation/figures/claims.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: Top-15 features are 100% Hurst, in rows 7\u20138: 'auto",
+  "value": "partly position",
+  "source": "presentation/figures/claims.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: Shannon entropy discarded because collinear with H",
+  "value": "does not hold",
+  "source": "presentation/figures/claims.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: KT-1 and Hurst carry diagnostic signal",
+  "value": "holds (in anatomy)",
+  "source": "presentation/figures/claims.json"
+ },
+ {
+  "slide": 26,
+  "label": "claim: Physics engine is explainable where black boxes ar",
+  "value": "holds, at a cost",
+  "source": "presentation/figures/claims.json"
+ }
+]
