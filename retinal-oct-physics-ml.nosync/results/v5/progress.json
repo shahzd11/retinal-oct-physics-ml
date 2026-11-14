@@ -1,0 +1,26 @@
+{
+  "OCTID CSR/DR/MH (500x750, no confound)": {
+    "paper method (300 H+S, RF)": 0.5038126361655774,
+    "v2 anatomy-aware features": 0.8360566448801743,
+    "v3 + NDT features": 0.8545751633986929,
+    "v4 + boundary fractal": 0.8676470588235294,
+    "v5 soft-vote ensemble": 0.8720043572984749,
+    "CNN (ResNet-18, black box)": 0.9395424836601306
+  },
+  "OCTDL 7-class": {
+    "paper method (300 H+S, RF)": 0.4642967876007016,
+    "v2 anatomy-aware features": 0.6611917502845057,
+    "v3 + NDT features": 0.6894793979336129,
+    "v4 + boundary fractal": 0.6816869665044605,
+    "v5 soft-vote ensemble": 0.6686949390508071,
+    "CNN (ResNet-18, black box)": null
+  },
+  "Kermany 4-class": {
+    "paper method (300 H+S, RF)": 0.4490786522312194,
+    "v2 anatomy-aware features": 0.6832058169876627,
+    "v3 + NDT features": 0.6917104803583293,
+    "v4 + boundary fractal": 0.6803213890319494,
+    "v5 soft-vote ensemble": 0.6954546131298708,
+    "CNN (ResNet-18, black box)": 0.8637550317931368
+  }
+}

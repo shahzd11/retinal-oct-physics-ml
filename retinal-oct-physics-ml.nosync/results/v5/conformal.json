@@ -1,0 +1,126 @@
+[
+  {
+    "task": "OCTDL triage NORMAL vs ABNORMAL",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 2064,
+    "coverage": 0.9559108527131783,
+    "mean_set_size": 1.0787306201550386,
+    "singleton_rate": 0.9212693798449612,
+    "singleton_accuracy": 0.952147105386308,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "ABNORMAL": 0.9552540415704388,
+      "NORMAL": 0.9593373493975903
+    }
+  },
+  {
+    "task": "OCTDL triage NORMAL vs ABNORMAL",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 2064,
+    "coverage": 0.9035852713178295,
+    "mean_set_size": 0.9784399224806202,
+    "singleton_rate": 0.961482558139535,
+    "singleton_accuracy": 0.9309550471924493,
+    "empty_rate": 0.030038759689922482,
+    "coverage_per_class": {
+      "ABNORMAL": 0.9032909930715936,
+      "NORMAL": 0.9051204819277108
+    }
+  },
+  {
+    "task": "Kermany triage NORMAL vs ABNORMAL",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 2401,
+    "coverage": 0.9421074552269888,
+    "mean_set_size": 1.2694710537276135,
+    "singleton_rate": 0.7305289462723865,
+    "singleton_accuracy": 0.9211536955840902,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "ABNORMAL": 0.943301834352418,
+      "NORMAL": 0.9385382059800664
+    }
+  },
+  {
+    "task": "Kermany triage NORMAL vs ABNORMAL",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 2401,
+    "coverage": 0.8885880882965431,
+    "mean_set_size": 1.0882965431070386,
+    "singleton_rate": 0.9117034568929613,
+    "singleton_accuracy": 0.8778544609094189,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "ABNORMAL": 0.8896609227348526,
+      "NORMAL": 0.8853820598006645
+    }
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 272,
+    "coverage": 0.9650735294117647,
+    "mean_set_size": 2.099264705882353,
+    "singleton_rate": 0.17830882352941177,
+    "singleton_accuracy": 0.9480851063829787,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CSR": 1.0,
+      "DR": 0.9558823529411764,
+      "MH": 0.9509803921568627
+    }
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 272,
+    "coverage": 0.9209558823529411,
+    "mean_set_size": 1.2518382352941178,
+    "singleton_rate": 0.7518382352941176,
+    "singleton_accuracy": 0.9095528455284553,
+    "empty_rate": 0.003676470588235294,
+    "coverage_per_class": {
+      "CSR": 0.9338235294117647,
+      "DR": 0.9264705882352942,
+      "MH": 0.9068627450980392
+    }
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 1799,
+    "coverage": 0.9491384102279043,
+    "mean_set_size": 1.8226792662590328,
+    "singleton_rate": 0.3312951639799889,
+    "singleton_accuracy": 0.8992650517900453,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CNV": 0.9442595673876872,
+      "DME": 0.9573578595317727,
+      "DRUSEN": 0.9458333333333333
+    }
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 1799,
+    "coverage": 0.8929961089494163,
+    "mean_set_size": 1.5325180655919954,
+    "singleton_rate": 0.5202890494719288,
+    "singleton_accuracy": 0.8414784792784564,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CNV": 0.891846921797005,
+      "DME": 0.9147157190635451,
+      "DRUSEN": 0.8725
+    }
+  }
+]

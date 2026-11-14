@@ -1,0 +1,6 @@
+v2 band-summary + disease + NDT                  Logistic regression      none 0.677 | z-all 0.643 | ref k=10 0.636 | ref k=30 0.652 | ref k=100 0.631
+v2 band-summary + disease + NDT                  LightGBM                 none 0.660 | z-all 0.689 | ref k=10 0.662 | ref k=30 0.677 | ref k=100 0.690
+v2 band-summary + disease + NDT                  Soft vote (LR+GBM+SVM)   none 0.702 | z-all 0.701 | ref k=10 0.672 | ref k=30 0.678 | ref k=100 0.674
+v2 band-summary + disease + NDT robust + fractal Logistic regression      none 0.671 | z-all 0.655 | ref k=10 0.617 | ref k=30 0.639 | ref k=100 0.654
+v2 band-summary + disease + NDT robust + fractal LightGBM                 none 0.670 | z-all 0.697 | ref k=10 0.660 | ref k=30 0.677 | ref k=100 0.676
+v2 band-summary + disease + NDT robust + fractal Soft vote (LR+GBM+SVM)   none 0.709 | z-all 0.695 | ref k=10 0.665 | ref k=30 0.688 | ref k=100 0.685

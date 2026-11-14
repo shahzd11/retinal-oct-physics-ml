@@ -1,0 +1,74 @@
+[
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "Logistic regression",
+    "none": 0.6773985534693914,
+    "z-all": 0.6433132520133419,
+    "healthy-ref k=10": 0.6363619988574664,
+    "healthy-ref k=10 sd": 0.03436830177333885,
+    "healthy-ref k=30": 0.6517743574114558,
+    "healthy-ref k=30 sd": 0.014354901746894189,
+    "healthy-ref k=100": 0.6308065980555523,
+    "healthy-ref k=100 sd": 0.027050926155351616
+  },
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "LightGBM",
+    "none": 0.6597942469769106,
+    "z-all": 0.688656037191644,
+    "healthy-ref k=10": 0.6621597343860381,
+    "healthy-ref k=10 sd": 0.022938934525581753,
+    "healthy-ref k=30": 0.6773176634823844,
+    "healthy-ref k=30 sd": 0.014061357252158908,
+    "healthy-ref k=100": 0.6895908426443618,
+    "healthy-ref k=100 sd": 0.02587521507910555
+  },
+  {
+    "features": "v2 band-summary + disease + NDT",
+    "model": "Soft vote (LR+GBM+SVM)",
+    "none": 0.7021093431124877,
+    "z-all": 0.7013029932137022,
+    "healthy-ref k=10": 0.6718666874821314,
+    "healthy-ref k=10 sd": 0.02885480004356171,
+    "healthy-ref k=30": 0.6780815598003109,
+    "healthy-ref k=30 sd": 0.010207581174050169,
+    "healthy-ref k=100": 0.6743667979107718,
+    "healthy-ref k=100 sd": 0.04062113347321385
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust + fractal",
+    "model": "Logistic regression",
+    "none": 0.6706627124112314,
+    "z-all": 0.6548997040345048,
+    "healthy-ref k=10": 0.6167396268573276,
+    "healthy-ref k=10 sd": 0.02595489162822082,
+    "healthy-ref k=30": 0.6389866996496792,
+    "healthy-ref k=30 sd": 0.018575248955177336,
+    "healthy-ref k=100": 0.6539543188894885,
+    "healthy-ref k=100 sd": 0.03295917872430747
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust + fractal",
+    "model": "LightGBM",
+    "none": 0.6702618594539301,
+    "z-all": 0.6968241950488449,
+    "healthy-ref k=10": 0.6603432744023027,
+    "healthy-ref k=10 sd": 0.021513218190053307,
+    "healthy-ref k=30": 0.6771491965756137,
+    "healthy-ref k=30 sd": 0.014528192251445705,
+    "healthy-ref k=100": 0.6758076603519214,
+    "healthy-ref k=100 sd": 0.021994298831688443
+  },
+  {
+    "features": "v2 band-summary + disease + NDT robust + fractal",
+    "model": "Soft vote (LR+GBM+SVM)",
+    "none": 0.7093056487958832,
+    "z-all": 0.6945793863074217,
+    "healthy-ref k=10": 0.6645845916167311,
+    "healthy-ref k=10 sd": 0.01877437157233736,
+    "healthy-ref k=30": 0.6876166512432278,
+    "healthy-ref k=30 sd": 0.008038864434965199,
+    "healthy-ref k=100": 0.685174199839253,
+    "healthy-ref k=100 sd": 0.02127899077976411
+  }
+]

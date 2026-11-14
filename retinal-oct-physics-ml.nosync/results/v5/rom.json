@@ -1,0 +1,572 @@
+{
+  "energy": {
+    "octid | paper H field (150 cells)": {
+      "cells": 150,
+      "r90": 26,
+      "r95": 44,
+      "r99": 86,
+      "energy_mode1": 0.28615103978101264
+    },
+    "octid | paper S field (150 cells)": {
+      "cells": 150,
+      "r90": 17,
+      "r95": 35,
+      "r99": 85,
+      "energy_mode1": 0.484897663906435
+    },
+    "octid | v2 band x sector H field (20 cells)": {
+      "cells": 20,
+      "r90": 10,
+      "r95": 13,
+      "r99": 18,
+      "energy_mode1": 0.5696951528690021
+    },
+    "octdl | paper H field (150 cells)": {
+      "cells": 150,
+      "r90": 47,
+      "r95": 72,
+      "r99": 115,
+      "energy_mode1": 0.2021025512443061
+    },
+    "octdl | paper S field (150 cells)": {
+      "cells": 150,
+      "r90": 24,
+      "r95": 44,
+      "r99": 87,
+      "energy_mode1": 0.4756048635238945
+    },
+    "octdl | v2 band x sector H field (20 cells)": {
+      "cells": 20,
+      "r90": 12,
+      "r95": 15,
+      "r99": 19,
+      "energy_mode1": 0.48305827383676775
+    },
+    "kermany | paper H field (150 cells)": {
+      "cells": 150,
+      "r90": 34,
+      "r95": 57,
+      "r99": 107,
+      "energy_mode1": 0.29333185672775564
+    },
+    "kermany | paper S field (150 cells)": {
+      "cells": 150,
+      "r90": 25,
+      "r95": 51,
+      "r99": 106,
+      "energy_mode1": 0.44865962297162015
+    },
+    "kermany | v2 band x sector H field (20 cells)": {
+      "cells": 20,
+      "r90": 10,
+      "r95": 14,
+      "r99": 19,
+      "energy_mode1": 0.5755828038636689
+    }
+  },
+  "octid_spearman_mode_vs_tissue_height": [
+    0.30373997316262663,
+    -0.9155183279808382,
+    0.13324558324177319,
+    -0.03271011663901953,
+    -0.0326397776245082,
+    -0.05178588369791304
+  ],
+  "octid_mean_H": 0.16811213835271005,
+  "energy_vs_info": {
+    "OCTID CSR/DR/MH": {
+      "spearman_energy_vs_eps2": -0.17973733583489682,
+      "eps2_top5_modes": [
+        0.0147,
+        0.0039,
+        0.0005,
+        0.0066,
+        0.0127
+      ],
+      "best_mode": 33,
+      "best_mode_eps2": 0.04256599535842154
+    },
+    "Kermany CNV/DME/DRUSEN": {
+      "spearman_energy_vs_eps2": 0.11669793621013136,
+      "eps2_top5_modes": [
+        0.006,
+        0.0139,
+        0.0275,
+        0.0063,
+        0.0093
+      ],
+      "best_mode": 3,
+      "best_mode_eps2": 0.027484002244538043
+    }
+  },
+  "accuracy": [
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper raw (300)",
+      "n_features": 300,
+      "bacc": 0.471677559912854,
+      "bacc_sd": 0.03295994612289163,
+      "ci": [
+        0.3738353180869151,
+        0.49363844814680397
+      ],
+      "acc": 0.47671568627450983
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper POD, r=2 per field",
+      "n_features": 4,
+      "bacc": 0.38126361655773416,
+      "bacc_sd": 0.020423020979578047,
+      "ci": [
+        0.33192236480647325,
+        0.44879672282926525
+      ],
+      "acc": 0.3602941176470588
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper POD, r=5 per field",
+      "n_features": 10,
+      "bacc": 0.35838779956427014,
+      "bacc_sd": 0.028185945605524215,
+      "ci": [
+        0.26469080594784233,
+        0.37732251229183833
+      ],
+      "acc": 0.3468137254901961
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper POD, r=10 per field",
+      "n_features": 20,
+      "bacc": 0.3491285403050109,
+      "bacc_sd": 0.020509989524796008,
+      "ci": [
+        0.30634699800924214,
+        0.4237800645070812
+      ],
+      "acc": 0.3406862745098039
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper POD, r=20 per field",
+      "n_features": 40,
+      "bacc": 0.4101307189542484,
+      "bacc_sd": 0.01749714423116448,
+      "ci": [
+        0.3351751180137618,
+        0.44748098104620376
+      ],
+      "acc": 0.4129901960784314
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "paper",
+      "config": "paper POD, r=50 per field",
+      "n_features": 100,
+      "bacc": 0.4705882352941176,
+      "bacc_sd": 0.016663462462721514,
+      "ci": [
+        0.38836659373878474,
+        0.502740467441576
+      ],
+      "acc": 0.474264705882353
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "texture",
+      "config": "texture raw + scalars (283)",
+      "n_features": 283,
+      "bacc": 0.8257080610021786,
+      "bacc_sd": 0.011188800971772366,
+      "ci": [
+        0.7969232935229762,
+        0.8818067210685054
+      ],
+      "acc": 0.8186274509803922
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "texture",
+      "config": "texture POD E=0.80 + scalars",
+      "n_features": 159,
+      "bacc": 0.8338779956427015,
+      "bacc_sd": 0.008577350625285167,
+      "ci": [
+        0.7763378220162945,
+        0.8636377633975864
+      ],
+      "acc": 0.8259803921568628
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "texture",
+      "config": "texture POD E=0.90 + scalars",
+      "n_features": 192,
+      "bacc": 0.8447712418300654,
+      "bacc_sd": 0.00352981519521124,
+      "ci": [
+        0.7963841585166223,
+        0.8804017591647446
+      ],
+      "acc": 0.8394607843137255
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "texture",
+      "config": "texture POD E=0.95 + scalars",
+      "n_features": 221,
+      "bacc": 0.8240740740740741,
+      "bacc_sd": 0.00335752396675869,
+      "ci": [
+        0.7771048993278499,
+        0.8678765679294855
+      ],
+      "acc": 0.8186274509803922
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "texture",
+      "config": "texture POD E=0.99 + scalars",
+      "n_features": 259,
+      "bacc": 0.8088235294117646,
+      "bacc_sd": 0.01313980183204234,
+      "ci": [
+        0.7797990354249746,
+        0.870216971988006
+      ],
+      "acc": 0.8026960784313726
+    },
+    {
+      "task": "OCTID CSR/DR/MH (500x750)",
+      "family": "reference",
+      "config": "repo best set (171)",
+      "n_features": 171,
+      "bacc": 0.8676470588235294,
+      "bacc_sd": 0.001334144740077979,
+      "ci": [
+        0.8277898558854726,
+        0.9052644619919291
+      ],
+      "acc": 0.8627450980392157
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper raw (300)",
+      "n_features": 300,
+      "bacc": 0.4363599008618884,
+      "bacc_sd": 0.009943223333404208,
+      "ci": [
+        0.37813108360347697,
+        0.4669632470644178
+      ],
+      "acc": 0.4738372093023256
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper POD, r=2 per field",
+      "n_features": 4,
+      "bacc": 0.22562131341466418,
+      "bacc_sd": 0.007315213096334125,
+      "ci": [
+        0.17758897652834477,
+        0.26285348271138703
+      ],
+      "acc": 0.15843023255813954
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper POD, r=5 per field",
+      "n_features": 10,
+      "bacc": 0.3103289791416331,
+      "bacc_sd": 0.008287210143417531,
+      "ci": [
+        0.26164773125105667,
+        0.3448429553303194
+      ],
+      "acc": 0.19767441860465118
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper POD, r=10 per field",
+      "n_features": 20,
+      "bacc": 0.35069948573079857,
+      "bacc_sd": 0.005189938314917307,
+      "ci": [
+        0.30899905055112054,
+        0.3949854090950629
+      ],
+      "acc": 0.23708010335917315
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper POD, r=20 per field",
+      "n_features": 40,
+      "bacc": 0.3925963648022222,
+      "bacc_sd": 0.006972144528983281,
+      "ci": [
+        0.328116420395992,
+        0.4286654833066617
+      ],
+      "acc": 0.29796511627906974
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "paper",
+      "config": "paper POD, r=50 per field",
+      "n_features": 100,
+      "bacc": 0.4180742588214348,
+      "bacc_sd": 0.004596508350919818,
+      "ci": [
+        0.36637884651538105,
+        0.4564278597574725
+      ],
+      "acc": 0.3903423772609819
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "texture",
+      "config": "texture raw + scalars (283)",
+      "n_features": 283,
+      "bacc": 0.6725449490592014,
+      "bacc_sd": 0.002754416172255924,
+      "ci": [
+        0.6138273643097355,
+        0.7247763313043543
+      ],
+      "acc": 0.7621124031007752
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "texture",
+      "config": "texture POD E=0.80 + scalars",
+      "n_features": 158,
+      "bacc": 0.6660555166764975,
+      "bacc_sd": 0.012269579461471303,
+      "ci": [
+        0.6241861491010385,
+        0.7222138633347962
+      ],
+      "acc": 0.7417635658914729
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "texture",
+      "config": "texture POD E=0.90 + scalars",
+      "n_features": 195,
+      "bacc": 0.6718953936133029,
+      "bacc_sd": 0.007243480384011297,
+      "ci": [
+        0.621573423339163,
+        0.7156672961305375
+      ],
+      "acc": 0.7462855297157622
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "texture",
+      "config": "texture POD E=0.95 + scalars",
+      "n_features": 223,
+      "bacc": 0.6678989139006951,
+      "bacc_sd": 0.0056420798412180895,
+      "ci": [
+        0.603863151109739,
+        0.7189006978836731
+      ],
+      "acc": 0.7487080103359173
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "texture",
+      "config": "texture POD E=0.99 + scalars",
+      "n_features": 264,
+      "bacc": 0.654140448587753,
+      "bacc_sd": 0.013193424237223842,
+      "ci": [
+        0.5873281094518377,
+        0.6981596699053016
+      ],
+      "acc": 0.7483850129198966
+    },
+    {
+      "task": "OCTDL 7-class",
+      "family": "reference",
+      "config": "repo best set (171)",
+      "n_features": 171,
+      "bacc": 0.6816869665044605,
+      "bacc_sd": 0.005217115391830995,
+      "ci": [
+        0.6386204038000657,
+        0.7337614478878656
+      ],
+      "acc": 0.7527454780361756
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper raw (300)",
+      "n_features": 300,
+      "bacc": 0.3939655276201986,
+      "bacc_sd": 0.004717402077390366,
+      "ci": [
+        0.37569650733153914,
+        0.4195017515957537
+      ],
+      "acc": 0.39400249895876716
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper POD, r=2 per field",
+      "n_features": 4,
+      "bacc": 0.2820200719203982,
+      "bacc_sd": 0.0057819021471388204,
+      "ci": [
+        0.25945318188499356,
+        0.29849965113756943
+      ],
+      "acc": 0.2818270165208941
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper POD, r=5 per field",
+      "n_features": 10,
+      "bacc": 0.338370714580011,
+      "bacc_sd": 0.0014772672798706531,
+      "ci": [
+        0.3162144208254307,
+        0.3623096185383672
+      ],
+      "acc": 0.3381924198250729
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper POD, r=10 per field",
+      "n_features": 20,
+      "bacc": 0.3429022139116391,
+      "bacc_sd": 0.004253102997806059,
+      "ci": [
+        0.3150770741039516,
+        0.3621705376574862
+      ],
+      "acc": 0.3427738442315702
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper POD, r=20 per field",
+      "n_features": 40,
+      "bacc": 0.3539070890561917,
+      "bacc_sd": 0.00671574264924699,
+      "ci": [
+        0.3304619664808461,
+        0.3756897610374672
+      ],
+      "acc": 0.35388032764126054
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "paper",
+      "config": "paper POD, r=50 per field",
+      "n_features": 100,
+      "bacc": 0.3881380396585044,
+      "bacc_sd": 0.0027849222692913375,
+      "ci": [
+        0.3659008776412828,
+        0.4111363484870715
+      ],
+      "acc": 0.3881715951686797
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "texture",
+      "config": "texture raw + scalars (283)",
+      "n_features": 283,
+      "bacc": 0.6704670951069563,
+      "bacc_sd": 0.005475924989907549,
+      "ci": [
+        0.6503168682141105,
+        0.6942934666816608
+      ],
+      "acc": 0.6705539358600583
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "texture",
+      "config": "texture POD E=0.80 + scalars",
+      "n_features": 149,
+      "bacc": 0.6553572790411502,
+      "bacc_sd": 0.0028545973234971496,
+      "ci": [
+        0.6259820997344282,
+        0.6745139613577663
+      ],
+      "acc": 0.6554213522143552
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "texture",
+      "config": "texture POD E=0.90 + scalars",
+      "n_features": 187,
+      "bacc": 0.6656307446548917,
+      "bacc_sd": 0.001087290951852743,
+      "ci": [
+        0.640956648476877,
+        0.6870287563903513
+      ],
+      "acc": 0.6656948493683187
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "texture",
+      "config": "texture POD E=0.95 + scalars",
+      "n_features": 217,
+      "bacc": 0.6686846841025376,
+      "bacc_sd": 0.0023139501567154296,
+      "ci": [
+        0.6418302069895693,
+        0.6870209665534237
+      ],
+      "acc": 0.6687491323059837
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "texture",
+      "config": "texture POD E=0.99 + scalars",
+      "n_features": 261,
+      "bacc": 0.6664467325119167,
+      "bacc_sd": 0.006756430136900867,
+      "ci": [
+        0.6473952513311523,
+        0.6899311971172872
+      ],
+      "acc": 0.6665278356240455
+    },
+    {
+      "task": "Kermany 4-class",
+      "family": "reference",
+      "config": "repo best set (171)",
+      "n_features": 171,
+      "bacc": 0.6768638961053881,
+      "bacc_sd": 0.0034040897464923453,
+      "ci": [
+        0.6578275690892114,
+        0.7021460099914523
+      ],
+      "acc": 0.6769401638206304
+    }
+  ]
+}

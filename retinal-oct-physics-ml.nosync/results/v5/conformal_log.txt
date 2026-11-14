@@ -1,0 +1,8 @@
+OCTDL triage NORMAL vs ABNORMAL      alpha=0.05  coverage 0.956 (per class: ABNORMAL 0.955, NORMAL 0.959)  set size 1.08  singletons 0.92 (acc 0.952)
+OCTDL triage NORMAL vs ABNORMAL      alpha=0.10  coverage 0.904 (per class: ABNORMAL 0.903, NORMAL 0.905)  set size 0.98  singletons 0.96 (acc 0.931)
+Kermany triage NORMAL vs ABNORMAL    alpha=0.05  coverage 0.942 (per class: ABNORMAL 0.943, NORMAL 0.939)  set size 1.27  singletons 0.73 (acc 0.921)
+Kermany triage NORMAL vs ABNORMAL    alpha=0.10  coverage 0.889 (per class: ABNORMAL 0.890, NORMAL 0.885)  set size 1.09  singletons 0.91 (acc 0.878)
+OCTID CSR/DR/MH (500x750)            alpha=0.05  coverage 0.965 (per class: CSR 1.000, DR 0.956, MH 0.951)  set size 2.10  singletons 0.18 (acc 0.948)
+OCTID CSR/DR/MH (500x750)            alpha=0.10  coverage 0.921 (per class: CSR 0.934, DR 0.926, MH 0.907)  set size 1.25  singletons 0.75 (acc 0.910)
+Kermany CNV/DME/DRUSEN               alpha=0.05  coverage 0.949 (per class: CNV 0.944, DME 0.957, DRUSEN 0.946)  set size 1.82  singletons 0.33 (acc 0.899)
+Kermany CNV/DME/DRUSEN               alpha=0.10  coverage 0.893 (per class: CNV 0.892, DME 0.915, DRUSEN 0.873)  set size 1.53  singletons 0.52 (acc 0.841)
