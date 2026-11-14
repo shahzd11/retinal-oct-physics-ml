@@ -1,0 +1,13 @@
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+[Parallel(n_jobs=6)]: Done  38 tasks      | elapsed:    1.9s
+[Parallel(n_jobs=6)]: Done 1970 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=6)]: Done 2401 out of 2401 | elapsed:    7.5s finished
+kermany blur=0.0 tiles (2401, 128, 512) failed 0 -> data/cache/v6/tiles_kermany.npz
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+device mps
+octid blur=0.0 resnet18 (517, 512) -> data/cache/v6/emb_resnet18_octid.npy
+octid blur=0.0 dinov2s (517, 384) -> data/cache/v6/emb_dinov2s_octid.npy
+octdl blur=0.0 resnet18 (2064, 512) -> data/cache/v6/emb_resnet18_octdl.npy
+octdl blur=0.0 dinov2s (2064, 384) -> data/cache/v6/emb_dinov2s_octdl.npy
+kermany blur=0.0 resnet18 (2401, 512) -> data/cache/v6/emb_resnet18_kermany.npy
+kermany blur=0.0 dinov2s (2401, 384) -> data/cache/v6/emb_dinov2s_kermany.npy

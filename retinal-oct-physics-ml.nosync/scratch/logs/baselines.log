@@ -1,0 +1,9 @@
+{'paper_8020': {'protocol': 'OCTID 4-class, stratified 80/20, seed 42 (scanner-confounded)', 'n_test': 104, 'acc': 0.6826923076923077, 'bacc': 0.6099567099567099}, 'paper_cv_octid_dis750': {'task': 'OCTID CSR/DR/MH (500x750)', 'model': 'RF (paper config), 300 grid H+S', 'bacc': 0.5021786492374727, 'bacc_sd': 0.02951245573887597, 'bacc_ci': [0.4742808917526653, 0.5872436889359114], 'acc': 0.5012254901960785, 'macro_f1': 0.5016689039523564, 'bacc_per_seed': [0.5359477124183006, 0.5065359477124183, 0.4640522875816993]}}
+                           inner   outer     rpe  choroid
+Hurst H                   0.0060  0.0052  0.0063   0.0052
+NMSID roughness           0.0020  0.0032  0.0141   0.0042
+lacunarity                0.0040  0.0126  0.0115   0.0033
+entropy                   0.0084  0.0023  0.0021   0.0078
+reflectivity (mean, std) -0.0036  0.0029  0.0011   0.0036
+KT-1 slope                0.0089  0.0266  0.0102   0.0050
+coherence                 0.0072  0.0286  0.0090   0.0026

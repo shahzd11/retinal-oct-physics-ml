@@ -1,0 +1,5 @@
+  Kermany CNV/DME/DRUSEN           image-POD LR       r=10: 0.567  r=25: 0.575  r=50: 0.584  r=100: 0.581  r=200: 0.555
+  Kermany CNV/DME/DRUSEN           image-POD LightGBM r=10: 0.590  r=25: 0.611  r=50: 0.609  r=100: 0.603  r=200: 0.591
+  Kermany CNV/DME/DRUSEN           v5 best (soft vote)                bacc 0.731 [0.706, 0.765] acc 0.731 F1 0.731
+  Kermany CNV/DME/DRUSEN           v5 best + image-POD r=50           bacc 0.731 [0.708, 0.765] acc 0.731 F1 0.731
+  paired (v5+POD) - v5: {'diff_bacc': 0.0005610925924894872, 'diff_ci': [-0.012705821030246933, 0.015030540925499406], 'p_one_sided': 0.456, 'diff_per_seed': [0.0005610925924894872, 0.0010999721138620355, -0.001656479879007522]}

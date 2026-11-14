@@ -1,0 +1,55 @@
+device mps
+  Kermany 4-class fold 1/5
+    epoch 1/8 loss 0.740
+    epoch 2/8 loss 0.442
+    epoch 3/8 loss 0.353
+    epoch 4/8 loss 0.287
+    epoch 5/8 loss 0.244
+    epoch 6/8 loss 0.175
+    epoch 7/8 loss 0.135
+    epoch 8/8 loss 0.125
+  Kermany 4-class fold 2/5
+Python(45095) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(45101) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+    epoch 1/8 loss 0.697
+    epoch 2/8 loss 0.442
+    epoch 3/8 loss 0.390
+    epoch 4/8 loss 0.336
+    epoch 5/8 loss 0.271
+    epoch 6/8 loss 0.210
+    epoch 7/8 loss 0.172
+    epoch 8/8 loss 0.149
+  Kermany 4-class fold 3/5
+Python(46042) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(46051) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+    epoch 1/8 loss 0.698
+    epoch 2/8 loss 0.427
+    epoch 3/8 loss 0.356
+    epoch 4/8 loss 0.324
+    epoch 5/8 loss 0.244
+    epoch 6/8 loss 0.192
+    epoch 7/8 loss 0.135
+    epoch 8/8 loss 0.114
+  Kermany 4-class fold 4/5
+Python(47349) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(47357) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+    epoch 1/8 loss 0.699
+    epoch 2/8 loss 0.440
+    epoch 3/8 loss 0.367
+    epoch 4/8 loss 0.304
+    epoch 5/8 loss 0.253
+    epoch 6/8 loss 0.194
+    epoch 7/8 loss 0.166
+    epoch 8/8 loss 0.121
+  Kermany 4-class fold 5/5
+Python(48509) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(48514) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+    epoch 1/8 loss 0.728
+    epoch 2/8 loss 0.440
+    epoch 3/8 loss 0.350
+    epoch 4/8 loss 0.277
+    epoch 5/8 loss 0.241
+    epoch 6/8 loss 0.179
+    epoch 7/8 loss 0.158
+    epoch 8/8 loss 0.107
+  Kermany 4-class: bacc 0.867 [0.8507505104689919, 0.8845872016973029] (49.9 min)

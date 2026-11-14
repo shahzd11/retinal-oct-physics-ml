@@ -1,0 +1,5 @@
+  OCTDL 6 diseases                 hybrid DINOv2-S                    bacc 0.669 [0.602, 0.736] acc 0.865 F1 0.717
+  OCTDL 6 diseases                 hybrid ResNet-18                   bacc 0.682 [0.616, 0.741] acc 0.871 F1 0.724
+  OCTDL 6 diseases                 DINOv2-S embedding only            bacc 0.581 [0.520, 0.655] acc 0.810 F1 0.628
+  OCTDL 6 diseases                 ResNet-18 embedding only           bacc 0.649 [0.585, 0.704] acc 0.838 F1 0.688
+  paired vs v5 best (soft vote): {'diff_bacc': 0.0138896798810344, 'diff_ci': [-0.0055154454876247235, 0.0350325995376336], 'p_one_sided': 0.085}

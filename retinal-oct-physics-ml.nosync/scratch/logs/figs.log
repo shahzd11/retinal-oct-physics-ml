@@ -1,0 +1,57 @@
+/Users/harshjain/Desktop/NDT_Project/retinal-oct-physics-ml.nosync/make_figures.py:269: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d["meanH"] = d[hcols].mean(axis=1)
+/Users/harshjain/Desktop/NDT_Project/retinal-oct-physics-ml.nosync/make_figures.py:270: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d["scale"] = [750 / min(w, h * 1.5) for h, w in zip(d.orig_h, d.orig_w)]
+fig_pipeline
+  wrote presentation/figures/fig01a_pipeline_paper.png
+  wrote presentation/figures/fig01b_pipeline_ours.png
+  wrote presentation/figures/fig01_pipelines.png
+fig_examples
+  wrote presentation/figures/fig02_examples.png
+  wrote presentation/figures/fig02b_gallery.png
+fig_concepts
+  wrote presentation/figures/fig03a_kt1.png
+  wrote presentation/figures/fig03b_hurst.png
+fig_confound
+  wrote presentation/figures/fig04_confound.png
+fig_confusions
+  wrote presentation/figures/fig05a_confusion.png
+  wrote presentation/figures/fig05b_confusion.png
+  wrote presentation/figures/fig05c_confusion.png
+  wrote presentation/figures/fig05d_confusion.png
+  wrote presentation/figures/fig05e_confusion.png
+  wrote presentation/figures/fig05f_confusion.png
+  wrote presentation/figures/fig05_confusions.png
+fig_where
+  wrote presentation/figures/fig06_where_looks.png
+fig_fractal
+  wrote presentation/figures/fig07_fractal_validation.png
+fig_mapod
+  wrote presentation/figures/fig08_mapod.png
+fig_rom
+  copied presentation/figures/fig09a_rom_energy.png
+  copied presentation/figures/fig09b_rom_modes.png
+  copied presentation/figures/fig09c_rom_energy_vs_info.png
+  copied presentation/figures/fig13b_fractal_by_class.png
+  wrote presentation/figures/fig09d_rom_accuracy.png
+fig_conformal
+  wrote presentation/figures/fig11_conformal.png
+fig_harmonise
+  wrote presentation/figures/fig12_harmonisation.png
+fig_v6
+  wrote presentation/figures/fig14a_image_pod_modes.png
+  wrote presentation/figures/fig14b_image_pod_accuracy.png
+  wrote presentation/figures/fig14c_residual_maps_kermany_4.png
+  wrote presentation/figures/fig14c_residual_maps_octdl_7.png
+  wrote presentation/figures/fig14d_gradcam_vs_physics.png
+  wrote presentation/figures/fig14e_hybrid_vs_cnn.png
+fig_ablation
+  wrote presentation/figures/fig14f_ablation.png
+fig_paper_vs_ours
+  wrote presentation/figures/fig15a_paper_vs_ours.png
+  wrote presentation/figures/fig15b_claims_table.png
+fig_model_task
+  wrote presentation/figures/fig10_model_task_heatmap.png
+fig_progress
+  wrote presentation/figures/fig13_progress.png
+wrote presentation/figures/figure_numbers.json

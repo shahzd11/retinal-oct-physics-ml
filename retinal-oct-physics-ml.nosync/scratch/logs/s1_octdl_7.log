@@ -1,0 +1,5 @@
+  OCTDL 7-class                    image-POD LR       r=10: 0.426  r=25: 0.439  r=50: 0.404  r=100: 0.419  r=200: 0.424
+  OCTDL 7-class                    image-POD LightGBM r=10: 0.405  r=25: 0.393  r=50: 0.386  r=100: 0.376  r=200: 0.356
+  OCTDL 7-class                    v5 best (soft vote)                bacc 0.669 [0.605, 0.723] acc 0.834 F1 0.699
+  OCTDL 7-class                    v5 best + image-POD r=50           bacc 0.664 [0.606, 0.720] acc 0.833 F1 0.698
+  paired (v5+POD) - v5: {'diff_bacc': -0.0021010387207668346, 'diff_ci': [-0.015266820599022929, 0.01040855798817441], 'p_one_sided': 0.6375, 'diff_per_seed': [-0.0021010387207668346, -0.010048472430558397, -0.002814143195315366]}

@@ -1,0 +1,8 @@
+OCTDL triage NORMAL vs ABNORMAL      alpha=0.05 coverage 0.953 (ABNORMAL 0.951, NORMAL 0.961) set 1.06 single 0.94 (acc 0.951) | v5 set 1.08 single 0.92
+OCTDL triage NORMAL vs ABNORMAL      alpha=0.10 coverage 0.903 (ABNORMAL 0.901, NORMAL 0.914) set 0.97 single 0.96 (acc 0.939) | v5 set 0.98 single 0.96
+Kermany triage NORMAL vs ABNORMAL    alpha=0.05 coverage 0.941 (ABNORMAL 0.942, NORMAL 0.938) set 1.18 single 0.82 (acc 0.928) | v5 set 1.27 single 0.73
+Kermany triage NORMAL vs ABNORMAL    alpha=0.10 coverage 0.891 (ABNORMAL 0.891, NORMAL 0.889) set 1.04 single 0.95 (acc 0.893) | v5 set 1.09 single 0.91
+OCTID CSR/DR/MH (500x750)            alpha=0.05 coverage 0.960 (CSR 1.000, DR 0.961, MH 0.931) set 2.03 single 0.19 (acc 0.934) | v5 set 2.10 single 0.18
+OCTID CSR/DR/MH (500x750)            alpha=0.10 coverage 0.906 (CSR 0.926, DR 0.936, MH 0.863) set 1.11 single 0.86 (acc 0.913) | v5 set 1.25 single 0.75
+Kermany CNV/DME/DRUSEN               alpha=0.05 coverage 0.950 (CNV 0.947, DME 0.956, DRUSEN 0.947) set 1.75 single 0.39 (acc 0.908) | v5 set 1.82 single 0.33
+Kermany CNV/DME/DRUSEN               alpha=0.10 coverage 0.902 (CNV 0.905, DME 0.900, DRUSEN 0.900) set 1.47 single 0.57 (acc 0.859) | v5 set 1.53 single 0.52

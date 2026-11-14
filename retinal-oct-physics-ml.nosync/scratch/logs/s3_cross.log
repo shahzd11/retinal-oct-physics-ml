@@ -1,0 +1,4 @@
+  Kermany -> OCTDL (NORMAL/DME/AMD) hybrid DINOv2-S              bacc 0.729
+  Kermany -> OCTDL (NORMAL/DME/AMD) hybrid ResNet-18             bacc 0.753
+  Kermany -> OCTDL (NORMAL/DME/AMD) DINOv2-S embedding only      bacc 0.683
+  Kermany -> OCTDL (NORMAL/DME/AMD) ResNet-18 embedding only     bacc 0.737

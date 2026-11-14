@@ -1,0 +1,25 @@
+==> Fetching downloads for: libreoffice
+✔︎ Cask libreoffice (26.8.3)
+==> Uninstalling Cask libreoffice
+==> Unlinking Binary '/opt/homebrew/bin/gengal'
+==> Unlinking Binary '/opt/homebrew/bin/regview'
+==> Unlinking Binary '/opt/homebrew/bin/senddoc'
+==> Unlinking Binary '/opt/homebrew/bin/uno'
+==> Unlinking Binary '/opt/homebrew/bin/xpdfimport'
+==> Unlinking Command Wrapper '/opt/homebrew/bin/soffice'
+==> Unlinking Binary '/opt/homebrew/bin/unoinfo'
+==> Unlinking Binary '/opt/homebrew/bin/unopkg'
+==> Unlinking Binary '/opt/homebrew/bin/uri-encode'
+==> Purging files for version 26.8.3 of Cask libreoffice
+==> Installing Cask libreoffice
+==> Moving App 'LibreOffice.app' to '/Applications/LibreOffice.app'
+==> Linking Binary 'gengal' to '/opt/homebrew/bin/gengal'
+==> Linking Binary 'regview' to '/opt/homebrew/bin/regview'
+==> Linking Binary 'senddoc' to '/opt/homebrew/bin/senddoc'
+==> Linking Binary 'uno' to '/opt/homebrew/bin/uno'
+==> Linking Binary 'uri-encode' to '/opt/homebrew/bin/uri-encode'
+==> Linking Binary 'xpdfimport' to '/opt/homebrew/bin/xpdfimport'
+==> Linking Command Wrapper 'soffice' to '/opt/homebrew/bin/soffice'
+==> Linking Binary 'unoinfo' to '/opt/homebrew/bin/unoinfo'
+==> Linking Binary 'unopkg' to '/opt/homebrew/bin/unopkg'
+🍺  libreoffice was successfully installed!

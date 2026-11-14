@@ -1,0 +1,79 @@
+Downloading to /Users/harshjain/.cache/kagglehub/datasets/kawtarnaim/octid-dataset/1.archive...
+  0%|          | 0.00/35.1M [00:00<?, ?B/s]  3%|▎         | 1.00M/35.1M [00:01<00:51, 691kB/s]  6%|▌         | 2.00M/35.1M [00:01<00:25, 1.39MB/s]  9%|▊         | 3.00M/35.1M [00:01<00:15, 2.24MB/s] 11%|█▏        | 4.00M/35.1M [00:02<00:10, 2.99MB/s] 17%|█▋        | 6.00M/35.1M [00:02<00:06, 4.78MB/s] 20%|█▉        | 7.00M/35.1M [00:02<00:05, 5.56MB/s] 23%|██▎       | 8.00M/35.1M [00:02<00:04, 6.17MB/s] 26%|██▌       | 9.00M/35.1M [00:02<00:03, 6.96MB/s] 31%|███▏      | 11.0M/35.1M [00:02<00:03, 8.20MB/s] 34%|███▍      | 12.0M/35.1M [00:02<00:02, 8.49MB/s] 37%|███▋      | 13.0M/35.1M [00:03<00:02, 8.63MB/s] 43%|████▎     | 15.0M/35.1M [00:03<00:02, 8.90MB/s] 46%|████▌     | 16.0M/35.1M [00:03<00:02, 8.42MB/s] 48%|████▊     | 17.0M/35.1M [00:03<00:02, 7.95MB/s] 51%|█████     | 18.0M/35.1M [00:03<00:02, 7.54MB/s] 54%|█████▍    | 19.0M/35.1M [00:03<00:02, 7.18MB/s] 57%|█████▋    | 20.0M/35.1M [00:04<00:02, 7.12MB/s] 60%|█████▉    | 21.0M/35.1M [00:04<00:02, 6.90MB/s] 63%|██████▎   | 22.0M/35.1M [00:04<00:02, 6.85MB/s] 65%|██████▌   | 23.0M/35.1M [00:04<00:01, 7.20MB/s] 68%|██████▊   | 24.0M/35.1M [00:04<00:01, 7.22MB/s] 74%|███████▍  | 26.0M/35.1M [00:04<00:01, 8.71MB/s] 77%|███████▋  | 27.0M/35.1M [00:04<00:00, 8.91MB/s] 80%|███████▉  | 28.0M/35.1M [00:04<00:00, 9.17MB/s] 83%|████████▎ | 29.0M/35.1M [00:05<00:00, 9.30MB/s] 85%|████████▌ | 30.0M/35.1M [00:05<00:00, 9.42MB/s] 88%|████████▊ | 31.0M/35.1M [00:05<00:00, 8.25MB/s] 91%|█████████ | 32.0M/35.1M [00:05<00:00, 8.66MB/s] 94%|█████████▍| 33.0M/35.1M [00:05<00:00, 8.82MB/s] 97%|█████████▋| 34.0M/35.1M [00:05<00:00, 9.14MB/s]100%|█████████▉| 35.0M/35.1M [00:05<00:00, 7.33MB/s]100%|██████████| 35.1M/35.1M [00:05<00:00, 6.23MB/s]
+Extracting files...
+CSR 102
+DR 107
+MH 102
+NORMAL 206
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 1319, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1477, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+                                          server_hostname=server_hostname)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/harshjain/Desktop/NDT_Project/retinal-oct-physics-ml/download_data.py", line 96, in <module>
+    {"octid": octid, "kermany": kermany, "octdl": octdl}[cmd]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/harshjain/Desktop/NDT_Project/retinal-oct-physics-ml/download_data.py", line 78, in octdl
+    meta = json.load(urllib.request.urlopen(f"https://zenodo.org/api/records/{record}"))
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 1367, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 1322, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)>
+EXIT 1

@@ -1,0 +1,6 @@
+  Kermany 4-class                  hybrid DINOv2-S                    bacc 0.734 [0.715, 0.759] acc 0.734 F1 0.733
+  Kermany 4-class                  hybrid ResNet-18                   bacc 0.730 [0.704, 0.750] acc 0.731 F1 0.729
+  Kermany 4-class                  DINOv2-S embedding only            bacc 0.683 [0.668, 0.711] acc 0.683 F1 0.682
+  Kermany 4-class                  ResNet-18 embedding only           bacc 0.695 [0.670, 0.715] acc 0.695 F1 0.693
+  paired vs v5 best (soft vote): {'diff_bacc': 0.04293565661698939, 'diff_ci': [0.027533165113790455, 0.0571688455730596], 'p_one_sided': 0.0}
+  paired vs CNN (fine-tuned ResNet-18): {'diff_bacc': -0.12995085162929365, 'diff_ci': [-0.15221471788738133, -0.10813789258069052], 'p_one_sided': 1.0}

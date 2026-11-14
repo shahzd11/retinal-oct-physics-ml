@@ -1,0 +1,13 @@
+  v5 best (soft vote) | none | no TTA                          bacc 0.709 {'AMD': 0.7847, 'DME': 0.551, 'NORMAL': 0.7922}
+  v5 best (soft vote) | none | TTA                             bacc 0.670 {'AMD': 0.8497, 'DME': 0.5034, 'NORMAL': 0.6566}
+  v5 best (soft vote) | healthy-ref k=30 | no TTA              bacc 0.682 ± 0.015
+  v5 best (soft vote) | healthy-ref k=30 | TTA                 bacc 0.705 ± 0.018
+  v6 hybrid (ResNet-18 + physics) | none | no TTA              bacc 0.753 {'AMD': 0.7636, 'DME': 0.619, 'NORMAL': 0.8765}
+  v6 hybrid (ResNet-18 + physics) | none | TTA                 bacc 0.753 {'AMD': 0.8172, 'DME': 0.6395, 'NORMAL': 0.8012}
+  v6 hybrid (ResNet-18 + physics) | healthy-ref k=30 | no TTA  bacc 0.730 ± 0.018
+  v6 hybrid (ResNet-18 + physics) | healthy-ref k=30 | TTA     bacc 0.752 ± 0.018
+  v6 hybrid (DINOv2-S + physics) | none | no TTA               bacc 0.729 {'AMD': 0.7945, 'DME': 0.585, 'NORMAL': 0.8072}
+  v6 hybrid (DINOv2-S + physics) | none | TTA                  bacc 0.729 {'AMD': 0.8335, 'DME': 0.6259, 'NORMAL': 0.7289}
+  v6 hybrid (DINOv2-S + physics) | healthy-ref k=30 | no TTA   bacc 0.701 ± 0.015
+  v6 hybrid (DINOv2-S + physics) | healthy-ref k=30 | TTA      bacc 0.719 ± 0.015
+best: v6 hybrid (ResNet-18 + physics) | none | no TTA 0.7530534889548525

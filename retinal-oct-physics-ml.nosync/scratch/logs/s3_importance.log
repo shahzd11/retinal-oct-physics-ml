@@ -1,0 +1,10 @@
+physics: NDT (pulse-echo)                                 0.0647
+DINOv2-S embedding (PCA 64)                               0.0563
+physics: disease-specific (thickness, fluid, gap, RPE)    0.0398
+physics: texture: rpe band                                0.0347
+physics: texture: outer band                              0.0217
+physics: texture: inner band                              0.0197
+image-POD (50 modes)                                      0.0111
+physics: texture: choroid band                            0.0087
+physics: boundary fractal                                 0.0069
+POD residual e(x)                                         0.0000

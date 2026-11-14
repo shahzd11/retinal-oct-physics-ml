@@ -1,0 +1,5 @@
+  OCTDL 6 diseases                 image-POD LR       r=10: 0.423  r=25: 0.412  r=50: 0.385  r=100: 0.396  r=200: 0.383
+  OCTDL 6 diseases                 image-POD LightGBM r=10: 0.396  r=25: 0.378  r=50: 0.359  r=100: 0.344  r=200: 0.327
+  OCTDL 6 diseases                 v5 best (soft vote)                bacc 0.653 [0.589, 0.722] acc 0.852 F1 0.688
+  OCTDL 6 diseases                 v5 best + image-POD r=50           bacc 0.634 [0.558, 0.690] acc 0.847 F1 0.673
+  paired (v5+POD) - v5: {'diff_bacc': -0.028551804212324172, 'diff_ci': [-0.060874831204988177, -0.004785784574880769], 'p_one_sided': 0.992, 'diff_per_seed': [-0.028551804212324172, -0.014388777067651626, -0.014944133390065728]}

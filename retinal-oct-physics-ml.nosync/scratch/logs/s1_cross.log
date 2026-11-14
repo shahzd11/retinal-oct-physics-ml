@@ -1,0 +1,4 @@
+  Kermany -> OCTDL (NORMAL/DME/AMD) image-POD LR: r=10: 0.530  r=25: 0.516  r=50: 0.495  r=100: 0.541  r=200: 0.546
+  Kermany -> OCTDL (NORMAL/DME/AMD) image-POD LightGBM: r=10: 0.455  r=25: 0.491  r=50: 0.457  r=100: 0.460  r=200: 0.425
+  Kermany -> OCTDL (NORMAL/DME/AMD) v5 best (soft vote)            bacc 0.709
+  Kermany -> OCTDL (NORMAL/DME/AMD) v5 best + image-POD r=50       bacc 0.693

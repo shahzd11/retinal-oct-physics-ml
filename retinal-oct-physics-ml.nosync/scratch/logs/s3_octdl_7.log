@@ -1,0 +1,5 @@
+  OCTDL 7-class                    hybrid DINOv2-S                    bacc 0.688 [0.632, 0.748] acc 0.847 F1 0.727
+  OCTDL 7-class                    hybrid ResNet-18                   bacc 0.708 [0.657, 0.764] acc 0.861 F1 0.747
+  OCTDL 7-class                    DINOv2-S embedding only            bacc 0.600 [0.541, 0.649] acc 0.786 F1 0.638
+  OCTDL 7-class                    ResNet-18 embedding only           bacc 0.671 [0.603, 0.709] acc 0.826 F1 0.704
+  paired vs v5 best (soft vote): {'diff_bacc': 0.024429836146174888, 'diff_ci': [0.006482677677527632, 0.04353795581815171], 'p_one_sided': 0.005}

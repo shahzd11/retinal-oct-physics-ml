@@ -1,0 +1,5 @@
+  OCTID CSR/DR/MH (500x750)        image-POD LR       r=10: 0.625  r=25: 0.668  r=50: 0.680  r=100: 0.696  r=200: 0.675
+  OCTID CSR/DR/MH (500x750)        image-POD LightGBM r=10: 0.608  r=25: 0.620  r=50: 0.632  r=100: 0.633  r=200: 0.598
+  OCTID CSR/DR/MH (500x750)        v5 best (soft vote)                bacc 0.872 [0.833, 0.911] acc 0.868 F1 0.869
+  OCTID CSR/DR/MH (500x750)        v5 best + image-POD r=50           bacc 0.881 [0.855, 0.924] acc 0.875 F1 0.877
+  paired (v5+POD) - v5: {'diff_bacc': 0.014705882352941124, 'diff_ci': [-0.009724834090551878, 0.04140758051956285], 'p_one_sided': 0.141, 'diff_per_seed': [0.014705882352941124, 0.004901960784313819, 0.0065359477124183885]}

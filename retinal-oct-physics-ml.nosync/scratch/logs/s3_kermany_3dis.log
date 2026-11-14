@@ -1,0 +1,5 @@
+  Kermany CNV/DME/DRUSEN           hybrid DINOv2-S                    bacc 0.763 [0.740, 0.791] acc 0.763 F1 0.763
+  Kermany CNV/DME/DRUSEN           hybrid ResNet-18                   bacc 0.759 [0.735, 0.789] acc 0.759 F1 0.759
+  Kermany CNV/DME/DRUSEN           DINOv2-S embedding only            bacc 0.722 [0.691, 0.742] acc 0.722 F1 0.722
+  Kermany CNV/DME/DRUSEN           ResNet-18 embedding only           bacc 0.718 [0.701, 0.751] acc 0.718 F1 0.718
+  paired vs v5 best (soft vote): {'diff_bacc': 0.031143659366187015, 'diff_ci': [0.014301637469188893, 0.047879081659084305], 'p_one_sided': 0.0005}

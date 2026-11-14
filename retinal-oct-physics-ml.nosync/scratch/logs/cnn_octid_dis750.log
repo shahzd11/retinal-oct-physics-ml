@@ -1,0 +1,47 @@
+device mps
+  OCTID CSR/DR/MH (500x750) fold 1/5
+    epoch 1/8 loss 0.722
+    epoch 2/8 loss 0.209
+    epoch 3/8 loss 0.111
+    epoch 4/8 loss 0.124
+    epoch 5/8 loss 0.095
+    epoch 6/8 loss 0.044
+    epoch 7/8 loss 0.060
+    epoch 8/8 loss 0.027
+  OCTID CSR/DR/MH (500x750) fold 2/5
+    epoch 1/8 loss 0.708
+    epoch 2/8 loss 0.177
+    epoch 3/8 loss 0.163
+    epoch 4/8 loss 0.125
+    epoch 5/8 loss 0.074
+    epoch 6/8 loss 0.045
+    epoch 7/8 loss 0.054
+    epoch 8/8 loss 0.033
+  OCTID CSR/DR/MH (500x750) fold 3/5
+    epoch 1/8 loss 0.735
+    epoch 2/8 loss 0.213
+    epoch 3/8 loss 0.099
+    epoch 4/8 loss 0.136
+    epoch 5/8 loss 0.045
+    epoch 6/8 loss 0.064
+    epoch 7/8 loss 0.012
+    epoch 8/8 loss 0.034
+  OCTID CSR/DR/MH (500x750) fold 4/5
+    epoch 1/8 loss 0.759
+    epoch 2/8 loss 0.213
+    epoch 3/8 loss 0.111
+    epoch 4/8 loss 0.187
+    epoch 5/8 loss 0.091
+    epoch 6/8 loss 0.089
+    epoch 7/8 loss 0.037
+    epoch 8/8 loss 0.046
+  OCTID CSR/DR/MH (500x750) fold 5/5
+    epoch 1/8 loss 0.694
+    epoch 2/8 loss 0.194
+    epoch 3/8 loss 0.095
+    epoch 4/8 loss 0.069
+    epoch 5/8 loss 0.051
+    epoch 6/8 loss 0.026
+    epoch 7/8 loss 0.014
+    epoch 8/8 loss 0.015
+  OCTID CSR/DR/MH (500x750): bacc 0.935 [0.9054094638791848, 0.961328876338305] (5.5 min)

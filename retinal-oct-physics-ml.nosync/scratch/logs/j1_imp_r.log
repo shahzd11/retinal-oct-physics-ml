@@ -1,0 +1,10 @@
+deep: ResNet-18 embedding (PCA 64)                        0.0558
+physics: NDT (pulse-echo)                                 0.0456
+physics: disease-specific (thickness, fluid, gap, RPE)    0.0390
+physics: texture: rpe band                                0.0316
+physics: texture: choroid band                            0.0078
+physics: texture: inner band                              0.0067
+physics: texture: outer band                              0.0052
+ROM: image-POD (50 modes)                                 0.0022
+ROM: POD residual e(x)                                    0.0000
+physics: boundary fractal                                -0.0019

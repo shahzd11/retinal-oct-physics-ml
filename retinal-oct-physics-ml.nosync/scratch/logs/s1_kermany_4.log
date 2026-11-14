@@ -1,0 +1,5 @@
+  Kermany 4-class                  image-POD LR       r=10: 0.457  r=25: 0.485  r=50: 0.498  r=100: 0.493  r=200: 0.486
+  Kermany 4-class                  image-POD LightGBM r=10: 0.519  r=25: 0.537  r=50: 0.537  r=100: 0.532  r=200: 0.530
+  Kermany 4-class                  v5 best (soft vote)                bacc 0.695 [0.671, 0.718] acc 0.696 F1 0.694
+  Kermany 4-class                  v5 best + image-POD r=50           bacc 0.698 [0.678, 0.724] acc 0.698 F1 0.697
+  paired (v5+POD) - v5: {'diff_bacc': 0.0058451402525906415, 'diff_ci': [-0.0038744823312037184, 0.015249413662922776], 'p_one_sided': 0.123, 'diff_per_seed': [0.0058451402525906415, -0.0033236457141383458, 0.004994446732220825]}
