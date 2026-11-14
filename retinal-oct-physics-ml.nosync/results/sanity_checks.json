@@ -1,0 +1,22 @@
+{
+  "cv_accuracy_mean": 0.728603435399552,
+  "cv_accuracy_std": 0.03359467342984724,
+  "cv_accuracy_min_max": [
+    0.6504854368932039,
+    0.7884615384615384
+  ],
+  "cv_balanced_accuracy_mean": 0.6626645021645022,
+  "cv_disease_only_3class_accuracy": 0.5691500256016385,
+  "size_only_normal_vs_disease_acc": 1.0,
+  "size_only_4class_acc": 0.6575242718446603,
+  "baseline_meanstd_cv_accuracy": 0.7773730395817775,
+  "baseline_meanstd_normal_recall": 0.9902912621359223,
+  "baseline_meanstd_normal_precision": 0.9807692307692307,
+  "spearman_scale_meanH": 0.8162993133461979,
+  "disease_test_n": 63,
+  "disease_called_normal_original": 0,
+  "disease_called_normal_after_resample": 63,
+  "meanH_disease_original": 0.12004591340004683,
+  "meanH_disease_after_resample": 0.18747823669171246,
+  "meanH_normal": 0.24313488767995467
+}
