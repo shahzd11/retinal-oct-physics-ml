@@ -1,0 +1,26 @@
+frac_ilm_H             shift |d| 0.30   eps2 OCTID-dis 0.013  OCTDL 0.038  Kermany 0.042
+frac_ilm_D             shift |d| 0.30   eps2 OCTID-dis 0.013  OCTDL 0.038  Kermany 0.042
+frac_ilm_r2            shift |d| 0.40   eps2 OCTID-dis 0.006  OCTDL 0.041  Kermany 0.017
+frac_ilm_D_c           shift |d| 0.52   eps2 OCTID-dis 0.036  OCTDL 0.069  Kermany 0.061
+frac_ilm_amp           shift |d| 0.58   eps2 OCTID-dis 0.345  OCTDL 0.064  Kermany 0.023
+frac_ilm_Ddiv          shift |d| 0.43   eps2 OCTID-dis 0.046  OCTDL 0.031  Kermany 0.009
+frac_ilm_Ddiv_r2       shift |d| 0.08   eps2 OCTID-dis 0.038  OCTDL 0.006  Kermany 0.004
+frac_rpe_H             shift |d| 0.36   eps2 OCTID-dis 0.117  OCTDL 0.095  Kermany 0.045
+frac_rpe_D             shift |d| 0.36   eps2 OCTID-dis 0.117  OCTDL 0.095  Kermany 0.045
+frac_rpe_r2            shift |d| 0.34   eps2 OCTID-dis 0.085  OCTDL 0.079  Kermany 0.049
+frac_rpe_D_c           shift |d| 0.24   eps2 OCTID-dis 0.021  OCTDL 0.173  Kermany 0.107
+frac_rpe_amp           shift |d| 0.16   eps2 OCTID-dis 0.093  OCTDL 0.158  Kermany 0.072
+frac_rpe_Ddiv          shift |d| 0.06   eps2 OCTID-dis 0.035  OCTDL 0.115  Kermany 0.088
+frac_rpe_Ddiv_r2       shift |d| 0.01   eps2 OCTID-dis 0.032  OCTDL 0.082  Kermany 0.057
+OCTID CSR/DR/MH (500x750)    Logistic regression  0.847 -> 0.868 diff +0.020 [-0.006, +0.044] p=0.065  repeats [0.018, 0.018, 0.0245]
+OCTID CSR/DR/MH (500x750)    LightGBM             0.853 -> 0.838 diff -0.015 [-0.043, +0.002] p=0.962  repeats [-0.0196, -0.0016, -0.0229]
+OCTID 4-class                Logistic regression  0.846 -> 0.843 diff -0.003 [-0.015, +0.025] p=0.336  repeats [0.0045, -0.0069, -0.0071]
+OCTID 4-class                LightGBM             0.864 -> 0.864 diff +0.001 [-0.030, +0.004] p=0.920  repeats [-0.0121, 0.0065, 0.0074]
+OCTDL 7-class                Logistic regression  0.682 -> 0.682 diff -0.000 [-0.010, +0.015] p=0.322  repeats [0.0031, 0.0036, -0.007]
+OCTDL 7-class                LightGBM             0.641 -> 0.644 diff +0.002 [-0.021, +0.014] p=0.690  repeats [-0.0048, 0.0103, 0.0018]
+OCTDL 6 diseases             Logistic regression  0.677 -> 0.674 diff -0.003 [-0.023, +0.007] p=0.820  repeats [-0.007, -0.0073, 0.0046]
+OCTDL 6 diseases             LightGBM             0.619 -> 0.615 diff -0.004 [-0.053, +0.002] p=0.965  repeats [-0.0217, -0.002, 0.0115]
+Kermany 4-class              Logistic regression  0.676 -> 0.677 diff +0.001 [-0.006, +0.012] p=0.212  repeats [0.0034, -0.0037, 0.0038]
+Kermany 4-class              LightGBM             0.685 -> 0.680 diff -0.004 [-0.019, +0.003] p=0.935  repeats [-0.0083, -0.0042, -0.0008]
+Kermany CNV/DME/DRUSEN       Logistic regression  0.707 -> 0.708 diff +0.001 [-0.015, +0.008] p=0.711  repeats [-0.0033, 0.0017, 0.0061]
+Kermany CNV/DME/DRUSEN       LightGBM             0.730 -> 0.726 diff -0.004 [-0.018, +0.006] p=0.832  repeats [-0.0056, -0.0067, -0.0]

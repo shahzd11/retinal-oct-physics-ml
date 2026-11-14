@@ -1,0 +1,206 @@
+[
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "Logistic regression",
+    "base_bacc": 0.8474945533769064,
+    "with_bacc": 0.8676470588235294,
+    "diff_mean": 0.020152505446623097,
+    "diff_per_repeat": [
+      0.018,
+      0.018,
+      0.0245
+    ],
+    "diff_ci": [
+      -0.005808573313488194,
+      0.04402329083365584
+    ],
+    "p_one_sided": 0.065
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "model": "LightGBM",
+    "base_bacc": 0.8529411764705882,
+    "with_bacc": 0.8382352941176471,
+    "diff_mean": -0.014705882352941124,
+    "diff_per_repeat": [
+      -0.0196,
+      -0.0016,
+      -0.0229
+    ],
+    "diff_ci": [
+      -0.04299552133655387,
+      0.002344791052734827
+    ],
+    "p_one_sided": 0.9615
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "Logistic regression",
+    "base_bacc": 0.845822043241275,
+    "with_bacc": 0.8426606692037127,
+    "diff_mean": -0.0031613740375623,
+    "diff_per_repeat": [
+      0.0045,
+      -0.0069,
+      -0.0071
+    ],
+    "diff_ci": [
+      -0.01508741037501809,
+      0.02505708670181568
+    ],
+    "p_one_sided": 0.3355
+  },
+  {
+    "task": "OCTID 4-class",
+    "model": "LightGBM",
+    "base_bacc": 0.8639068729751225,
+    "with_bacc": 0.8644943580674566,
+    "diff_mean": 0.0005874850923340466,
+    "diff_per_repeat": [
+      -0.0121,
+      0.0065,
+      0.0074
+    ],
+    "diff_ci": [
+      -0.029725080585100906,
+      0.004378482422476748
+    ],
+    "p_one_sided": 0.92
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "Logistic regression",
+    "base_bacc": 0.6817712171902112,
+    "with_bacc": 0.6816869665044605,
+    "diff_mean": -8.42506857506864e-05,
+    "diff_per_repeat": [
+      0.0031,
+      0.0036,
+      -0.007
+    ],
+    "diff_ci": [
+      -0.009841407522920963,
+      0.0151081643133469
+    ],
+    "p_one_sided": 0.322
+  },
+  {
+    "task": "OCTDL 7-class",
+    "model": "LightGBM",
+    "base_bacc": 0.6411382966446751,
+    "with_bacc": 0.643571557473733,
+    "diff_mean": 0.002433260829057778,
+    "diff_per_repeat": [
+      -0.0048,
+      0.0103,
+      0.0018
+    ],
+    "diff_ci": [
+      -0.021192509250831052,
+      0.014482265915174614
+    ],
+    "p_one_sided": 0.69
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "Logistic regression",
+    "base_bacc": 0.676910331589044,
+    "with_bacc": 0.6736665211895123,
+    "diff_mean": -0.003243810399531736,
+    "diff_per_repeat": [
+      -0.007,
+      -0.0073,
+      0.0046
+    ],
+    "diff_ci": [
+      -0.022632051670689452,
+      0.007409841147594284
+    ],
+    "p_one_sided": 0.82
+  },
+  {
+    "task": "OCTDL 6 diseases",
+    "model": "LightGBM",
+    "base_bacc": 0.6192463764664459,
+    "with_bacc": 0.615177746476815,
+    "diff_mean": -0.004068629989631016,
+    "diff_per_repeat": [
+      -0.0217,
+      -0.002,
+      0.0115
+    ],
+    "diff_ci": [
+      -0.05337739568708924,
+      0.0022237804178253857
+    ],
+    "p_one_sided": 0.9645
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "Logistic regression",
+    "base_bacc": 0.675740057620985,
+    "with_bacc": 0.6768638961053881,
+    "diff_mean": 0.001123838484403265,
+    "diff_per_repeat": [
+      0.0034,
+      -0.0037,
+      0.0038
+    ],
+    "diff_ci": [
+      -0.005541621058917315,
+      0.012456474901182507
+    ],
+    "p_one_sided": 0.212
+  },
+  {
+    "task": "Kermany 4-class",
+    "model": "LightGBM",
+    "base_bacc": 0.6847665507046338,
+    "with_bacc": 0.6803213890319494,
+    "diff_mean": -0.0044451616726843834,
+    "diff_per_repeat": [
+      -0.0083,
+      -0.0042,
+      -0.0008
+    ],
+    "diff_ci": [
+      -0.019012829228168833,
+      0.002759880655811206
+    ],
+    "p_one_sided": 0.9355
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "Logistic regression",
+    "base_bacc": 0.7065313282107755,
+    "with_bacc": 0.7080264291748773,
+    "diff_mean": 0.001495100964101918,
+    "diff_per_repeat": [
+      -0.0033,
+      0.0017,
+      0.0061
+    ],
+    "diff_ci": [
+      -0.015401325644734901,
+      0.008179063370181646
+    ],
+    "p_one_sided": 0.711
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "model": "LightGBM",
+    "base_bacc": 0.7302335747452582,
+    "with_bacc": 0.7261455885180838,
+    "diff_mean": -0.0040879862271745076,
+    "diff_per_repeat": [
+      -0.0056,
+      -0.0067,
+      -0.0
+    ],
+    "diff_ci": [
+      -0.01770358213718817,
+      0.006291058254746796
+    ],
+    "p_one_sided": 0.8315
+  }
+]

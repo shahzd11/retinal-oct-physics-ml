@@ -1,0 +1,380 @@
+{
+  "frac_ilm_H": {
+    "scanner_shift_d": 0.2981801335665441,
+    "octid_eps2": 0.013143917799876226,
+    "octid_median": {
+      "CSR": 0.8564,
+      "DR": 0.8556,
+      "MH": 0.8726,
+      "NORMAL": 0.8849
+    },
+    "octdl_eps2": 0.0383856500181449,
+    "octdl_median": {
+      "AMD": 0.883,
+      "DME": 0.8632,
+      "ERM": 0.8367,
+      "NORMAL": 0.9005,
+      "RAO": 0.9033,
+      "RVO": 0.8907,
+      "VID": 0.8722
+    },
+    "kermany_eps2": 0.04152183521167885,
+    "kermany_median": {
+      "CNV": 0.8348,
+      "DME": 0.8436,
+      "DRUSEN": 0.8492,
+      "NORMAL": 0.8891
+    }
+  },
+  "frac_ilm_D": {
+    "scanner_shift_d": 0.29818013356654144,
+    "octid_eps2": 0.013143917799876226,
+    "octid_median": {
+      "CSR": 1.1436,
+      "DR": 1.1444,
+      "MH": 1.1274,
+      "NORMAL": 1.1151
+    },
+    "octdl_eps2": 0.0383856500181449,
+    "octdl_median": {
+      "AMD": 1.117,
+      "DME": 1.1368,
+      "ERM": 1.1633,
+      "NORMAL": 1.0995,
+      "RAO": 1.0967,
+      "RVO": 1.1093,
+      "VID": 1.1278
+    },
+    "kermany_eps2": 0.04152183521167885,
+    "kermany_median": {
+      "CNV": 1.1652,
+      "DME": 1.1564,
+      "DRUSEN": 1.1508,
+      "NORMAL": 1.1109
+    }
+  },
+  "frac_ilm_r2": {
+    "scanner_shift_d": 0.3963554166201167,
+    "octid_eps2": 0.005639809145343935,
+    "octid_median": {
+      "CSR": 0.9994,
+      "DR": 0.9992,
+      "MH": 0.9993,
+      "NORMAL": 0.9995
+    },
+    "octdl_eps2": 0.04083840256814473,
+    "octdl_median": {
+      "AMD": 0.9994,
+      "DME": 0.9992,
+      "ERM": 0.9983,
+      "NORMAL": 0.9997,
+      "RAO": 0.9998,
+      "RVO": 0.9994,
+      "VID": 0.9993
+    },
+    "kermany_eps2": 0.017398740108215092,
+    "kermany_median": {
+      "CNV": 0.9988,
+      "DME": 0.9988,
+      "DRUSEN": 0.9991,
+      "NORMAL": 0.9995
+    }
+  },
+  "frac_ilm_D_c": {
+    "scanner_shift_d": 0.522111147205889,
+    "octid_eps2": 0.03642056411818529,
+    "octid_median": {
+      "CSR": 1.1107,
+      "DR": 1.0964,
+      "MH": 1.0635,
+      "NORMAL": 1.0677
+    },
+    "octdl_eps2": 0.06941541281596217,
+    "octdl_median": {
+      "AMD": 1.0837,
+      "DME": 1.1014,
+      "ERM": 1.1246,
+      "NORMAL": 1.0459,
+      "RAO": 1.0821,
+      "RVO": 1.0949,
+      "VID": 1.0864
+    },
+    "kermany_eps2": 0.06086656023163297,
+    "kermany_median": {
+      "CNV": 1.1465,
+      "DME": 1.1307,
+      "DRUSEN": 1.0952,
+      "NORMAL": 1.0668
+    }
+  },
+  "frac_ilm_amp": {
+    "scanner_shift_d": 0.5848553106189199,
+    "octid_eps2": 0.3446221887596268,
+    "octid_median": {
+      "CSR": 0.3353,
+      "DR": 0.5841,
+      "MH": 0.5707,
+      "NORMAL": 0.5686
+    },
+    "octdl_eps2": 0.0639168826728554,
+    "octdl_median": {
+      "AMD": 2.1601,
+      "DME": 2.4701,
+      "ERM": 2.5964,
+      "NORMAL": 1.9067,
+      "RAO": 1.8963,
+      "RVO": 3.013,
+      "VID": 2.4837
+    },
+    "kermany_eps2": 0.022763362554005,
+    "kermany_median": {
+      "CNV": 2.3052,
+      "DME": 2.6539,
+      "DRUSEN": 2.1454,
+      "NORMAL": 2.335
+    }
+  },
+  "frac_ilm_Ddiv": {
+    "scanner_shift_d": 0.43456571476816386,
+    "octid_eps2": 0.04636759794384303,
+    "octid_median": {
+      "CSR": 1.0042,
+      "DR": 1.0053,
+      "MH": 1.0062,
+      "NORMAL": 1.0054
+    },
+    "octdl_eps2": 0.031416190003997535,
+    "octdl_median": {
+      "AMD": 1.0002,
+      "DME": 1.001,
+      "ERM": 1.0068,
+      "NORMAL": 0.9984,
+      "RAO": 0.9952,
+      "RVO": 1.0041,
+      "VID": 1.0016
+    },
+    "kermany_eps2": 0.008586825639145952,
+    "kermany_median": {
+      "CNV": 1.0025,
+      "DME": 1.0025,
+      "DRUSEN": 0.9987,
+      "NORMAL": 0.9986
+    }
+  },
+  "frac_ilm_Ddiv_r2": {
+    "scanner_shift_d": 0.07721760374870729,
+    "octid_eps2": 0.03790067935696133,
+    "octid_median": {
+      "CSR": 0.409,
+      "DR": 0.2946,
+      "MH": 0.262,
+      "NORMAL": 0.3749
+    },
+    "octdl_eps2": 0.00585551094835262,
+    "octdl_median": {
+      "AMD": 0.1758,
+      "DME": 0.1464,
+      "ERM": 0.2317,
+      "NORMAL": 0.1253,
+      "RAO": 0.1419,
+      "RVO": 0.1797,
+      "VID": 0.1723
+    },
+    "kermany_eps2": 0.003920211052750392,
+    "kermany_median": {
+      "CNV": 0.2067,
+      "DME": 0.1742,
+      "DRUSEN": 0.1398,
+      "NORMAL": 0.1542
+    }
+  },
+  "frac_rpe_H": {
+    "scanner_shift_d": 0.35601525256330097,
+    "octid_eps2": 0.11666798091228957,
+    "octid_median": {
+      "CSR": 0.6449,
+      "DR": 0.7894,
+      "MH": 0.5412,
+      "NORMAL": 0.7064
+    },
+    "octdl_eps2": 0.0952129362822995,
+    "octdl_median": {
+      "AMD": 0.7468,
+      "DME": 0.712,
+      "ERM": 0.6604,
+      "NORMAL": 0.6248,
+      "RAO": 0.7013,
+      "RVO": 0.8051,
+      "VID": 0.6624
+    },
+    "kermany_eps2": 0.04479163414659775,
+    "kermany_median": {
+      "CNV": 0.7858,
+      "DME": 0.7866,
+      "DRUSEN": 0.73,
+      "NORMAL": 0.7226
+    }
+  },
+  "frac_rpe_D": {
+    "scanner_shift_d": 0.3560152525633022,
+    "octid_eps2": 0.11666798091228872,
+    "octid_median": {
+      "CSR": 1.3551,
+      "DR": 1.2106,
+      "MH": 1.4588,
+      "NORMAL": 1.2936
+    },
+    "octdl_eps2": 0.0952129362822995,
+    "octdl_median": {
+      "AMD": 1.2532,
+      "DME": 1.288,
+      "ERM": 1.3396,
+      "NORMAL": 1.3752,
+      "RAO": 1.2987,
+      "RVO": 1.1949,
+      "VID": 1.3376
+    },
+    "kermany_eps2": 0.04479163414659813,
+    "kermany_median": {
+      "CNV": 1.2142,
+      "DME": 1.2134,
+      "DRUSEN": 1.27,
+      "NORMAL": 1.2774
+    }
+  },
+  "frac_rpe_r2": {
+    "scanner_shift_d": 0.33752383429938543,
+    "octid_eps2": 0.08474769372109066,
+    "octid_median": {
+      "CSR": 0.9944,
+      "DR": 0.9986,
+      "MH": 0.9878,
+      "NORMAL": 0.9964
+    },
+    "octdl_eps2": 0.07890194562125244,
+    "octdl_median": {
+      "AMD": 0.9987,
+      "DME": 0.9977,
+      "ERM": 0.9961,
+      "NORMAL": 0.9956,
+      "RAO": 0.9979,
+      "RVO": 0.9982,
+      "VID": 0.9971
+    },
+    "kermany_eps2": 0.04937508925371896,
+    "kermany_median": {
+      "CNV": 0.9988,
+      "DME": 0.9982,
+      "DRUSEN": 0.9969,
+      "NORMAL": 0.9973
+    }
+  },
+  "frac_rpe_D_c": {
+    "scanner_shift_d": 0.23555344788788715,
+    "octid_eps2": 0.02116451387621174,
+    "octid_median": {
+      "CSR": 1.4275,
+      "DR": 1.2752,
+      "MH": 1.4862,
+      "NORMAL": 1.6043
+    },
+    "octdl_eps2": 0.17341824493057992,
+    "octdl_median": {
+      "AMD": 1.2431,
+      "DME": 1.3533,
+      "ERM": 1.5195,
+      "NORMAL": 1.6135,
+      "RAO": 1.3015,
+      "RVO": 1.2035,
+      "VID": 1.4578
+    },
+    "kermany_eps2": 0.10723575958338155,
+    "kermany_median": {
+      "CNV": 1.2081,
+      "DME": 1.2782,
+      "DRUSEN": 1.424,
+      "NORMAL": 1.6011
+    }
+  },
+  "frac_rpe_amp": {
+    "scanner_shift_d": 0.15683805737612003,
+    "octid_eps2": 0.09306901994739543,
+    "octid_median": {
+      "CSR": 0.5601,
+      "DR": 0.668,
+      "MH": 0.4322,
+      "NORMAL": 0.6262
+    },
+    "octdl_eps2": 0.15763822665818825,
+    "octdl_median": {
+      "AMD": 3.9893,
+      "DME": 3.5045,
+      "ERM": 3.194,
+      "NORMAL": 2.6997,
+      "RAO": 5.2151,
+      "RVO": 4.8296,
+      "VID": 3.0022
+    },
+    "kermany_eps2": 0.07195453434274927,
+    "kermany_median": {
+      "CNV": 3.7141,
+      "DME": 3.2646,
+      "DRUSEN": 2.7226,
+      "NORMAL": 2.6901
+    }
+  },
+  "frac_rpe_Ddiv": {
+    "scanner_shift_d": 0.060253764687674585,
+    "octid_eps2": 0.03506241982808671,
+    "octid_median": {
+      "CSR": 1.0041,
+      "DR": 1.001,
+      "MH": 1.0,
+      "NORMAL": 1.0034
+    },
+    "octdl_eps2": 0.11459814828541824,
+    "octdl_median": {
+      "AMD": 1.0151,
+      "DME": 1.0082,
+      "ERM": 1.0048,
+      "NORMAL": 1.0012,
+      "RAO": 1.0268,
+      "RVO": 1.0187,
+      "VID": 1.0051
+    },
+    "kermany_eps2": 0.08825367777011944,
+    "kermany_median": {
+      "CNV": 1.0157,
+      "DME": 1.0071,
+      "DRUSEN": 1.001,
+      "NORMAL": 1.001
+    }
+  },
+  "frac_rpe_Ddiv_r2": {
+    "scanner_shift_d": 0.013937723276369695,
+    "octid_eps2": 0.032428925841628604,
+    "octid_median": {
+      "CSR": 0.2067,
+      "DR": 0.2313,
+      "MH": 0.3682,
+      "NORMAL": 0.2782
+    },
+    "octdl_eps2": 0.08158886012250788,
+    "octdl_median": {
+      "AMD": 0.4231,
+      "DME": 0.2531,
+      "ERM": 0.2012,
+      "NORMAL": 0.1145,
+      "RAO": 0.8071,
+      "RVO": 0.5519,
+      "VID": 0.2261
+    },
+    "kermany_eps2": 0.056859625383801744,
+    "kermany_median": {
+      "CNV": 0.3917,
+      "DME": 0.2188,
+      "DRUSEN": 0.1113,
+      "NORMAL": 0.1342
+    }
+  }
+}
