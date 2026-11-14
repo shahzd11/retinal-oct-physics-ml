@@ -1,0 +1,218 @@
+[
+  {
+    "task": "OCTDL triage NORMAL vs ABNORMAL",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 2064,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9525193798449613,
+    "mean_set_size": 1.062015503875969,
+    "singleton_rate": 0.935562015503876,
+    "singleton_accuracy": 0.9505338038205586,
+    "empty_rate": 0.0012112403100775194,
+    "coverage_per_class": {
+      "ABNORMAL": 0.9509237875288683,
+      "NORMAL": 0.9608433734939759
+    },
+    "v5": {
+      "coverage": 0.9559108527131783,
+      "mean_set_size": 1.0787306201550386,
+      "singleton_rate": 0.9212693798449612,
+      "singleton_accuracy": 0.952147105386308,
+      "coverage_per_class": {
+        "ABNORMAL": 0.9552540415704388,
+        "NORMAL": 0.9593373493975903
+      }
+    }
+  },
+  {
+    "task": "OCTDL triage NORMAL vs ABNORMAL",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 2064,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9031007751937985,
+    "mean_set_size": 0.967296511627907,
+    "singleton_rate": 0.9551841085271318,
+    "singleton_accuracy": 0.9391323789264827,
+    "empty_rate": 0.03875968992248062,
+    "coverage_per_class": {
+      "ABNORMAL": 0.9009815242494226,
+      "NORMAL": 0.9141566265060241
+    },
+    "v5": {
+      "coverage": 0.9035852713178295,
+      "mean_set_size": 0.9784399224806202,
+      "singleton_rate": 0.961482558139535,
+      "singleton_accuracy": 0.9309550471924493,
+      "coverage_per_class": {
+        "ABNORMAL": 0.9032909930715936,
+        "NORMAL": 0.9051204819277108
+      }
+    }
+  },
+  {
+    "task": "Kermany triage NORMAL vs ABNORMAL",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 2401,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9408579758433986,
+    "mean_set_size": 1.1793002915451893,
+    "singleton_rate": 0.8206997084548104,
+    "singleton_accuracy": 0.9279979152196182,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "ABNORMAL": 0.9419121734296831,
+      "NORMAL": 0.9377076411960132
+    },
+    "v5": {
+      "coverage": 0.9421074552269888,
+      "mean_set_size": 1.2694710537276135,
+      "singleton_rate": 0.7305289462723865,
+      "singleton_accuracy": 0.9211536955840902,
+      "coverage_per_class": {
+        "ABNORMAL": 0.943301834352418,
+        "NORMAL": 0.9385382059800664
+      }
+    }
+  },
+  {
+    "task": "Kermany triage NORMAL vs ABNORMAL",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 2401,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.89067055393586,
+    "mean_set_size": 1.0370678883798417,
+    "singleton_rate": 0.9479383590170762,
+    "singleton_accuracy": 0.892717216660487,
+    "empty_rate": 0.007496876301541025,
+    "coverage_per_class": {
+      "ABNORMAL": 0.8913285158421345,
+      "NORMAL": 0.8887043189368771
+    },
+    "v5": {
+      "coverage": 0.8885880882965431,
+      "mean_set_size": 1.0882965431070386,
+      "singleton_rate": 0.9117034568929613,
+      "singleton_accuracy": 0.8778544609094189,
+      "coverage_per_class": {
+        "ABNORMAL": 0.8896609227348526,
+        "NORMAL": 0.8853820598006645
+      }
+    }
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 272,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9595588235294117,
+    "mean_set_size": 2.0294117647058822,
+    "singleton_rate": 0.18566176470588236,
+    "singleton_accuracy": 0.9336407377706496,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CSR": 1.0,
+      "DR": 0.9607843137254901,
+      "MH": 0.9313725490196079
+    },
+    "v5": {
+      "coverage": 0.9650735294117647,
+      "mean_set_size": 2.099264705882353,
+      "singleton_rate": 0.17830882352941177,
+      "singleton_accuracy": 0.9480851063829787,
+      "coverage_per_class": {
+        "CSR": 1.0,
+        "DR": 0.9558823529411764,
+        "MH": 0.9509803921568627
+      }
+    }
+  },
+  {
+    "task": "OCTID CSR/DR/MH (500x750)",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 272,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.90625,
+    "mean_set_size": 1.1084558823529411,
+    "singleton_rate": 0.8621323529411764,
+    "singleton_accuracy": 0.9126913265306122,
+    "empty_rate": 0.016544117647058824,
+    "coverage_per_class": {
+      "CSR": 0.9264705882352942,
+      "DR": 0.9362745098039216,
+      "MH": 0.8627450980392157
+    },
+    "v5": {
+      "coverage": 0.9209558823529411,
+      "mean_set_size": 1.2518382352941178,
+      "singleton_rate": 0.7518382352941176,
+      "singleton_accuracy": 0.9095528455284553,
+      "coverage_per_class": {
+        "CSR": 0.9338235294117647,
+        "DR": 0.9264705882352942,
+        "MH": 0.9068627450980392
+      }
+    }
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "alpha": 0.05,
+    "target": 0.95,
+    "n": 1799,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9496942745969983,
+    "mean_set_size": 1.7498610339077265,
+    "singleton_rate": 0.38521400778210113,
+    "singleton_accuracy": 0.9078210020235532,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CNV": 0.9467554076539102,
+      "DME": 0.955685618729097,
+      "DRUSEN": 0.9466666666666667
+    },
+    "v5": {
+      "coverage": 0.9491384102279043,
+      "mean_set_size": 1.8226792662590328,
+      "singleton_rate": 0.3312951639799889,
+      "singleton_accuracy": 0.8992650517900453,
+      "coverage_per_class": {
+        "CNV": 0.9442595673876872,
+        "DME": 0.9573578595317727,
+        "DRUSEN": 0.9458333333333333
+      }
+    }
+  },
+  {
+    "task": "Kermany CNV/DME/DRUSEN",
+    "alpha": 0.1,
+    "target": 0.9,
+    "n": 1799,
+    "model": "v6 hybrid (DINOv2-S + physics)",
+    "coverage": 0.9016120066703724,
+    "mean_set_size": 1.4688715953307394,
+    "singleton_rate": 0.5733740967204002,
+    "singleton_accuracy": 0.8590942427576092,
+    "empty_rate": 0.0,
+    "coverage_per_class": {
+      "CNV": 0.9051580698835274,
+      "DME": 0.899665551839465,
+      "DRUSEN": 0.9
+    },
+    "v5": {
+      "coverage": 0.8929961089494163,
+      "mean_set_size": 1.5325180655919954,
+      "singleton_rate": 0.5202890494719288,
+      "singleton_accuracy": 0.8414784792784564,
+      "coverage_per_class": {
+        "CNV": 0.891846921797005,
+        "DME": 0.9147157190635451,
+        "DRUSEN": 0.8725
+      }
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "task": "OCTID CSR/DR/MH (500x750)",
+  "model": "hybrid DINOv2-S",
+  "measured_on": "OCTID CSR/DR/MH (500x750) only, seed-0 folds",
+  "note": "importance = drop in balanced accuracy when a group is permuted in held-out folds; it shows how much the fitted model relies on a group, not how much accuracy the group adds (see ablation.json)",
+  "families": {
+    "physics": "hand-crafted v5 features",
+    "ROM": "image-level reduced-order model (v6)",
+    "deep": "frozen embedding"
+  },
+  "importance": {
+    "physics: NDT (pulse-echo)": 0.06465689865689861,
+    "deep: DINOv2-S embedding (PCA 64)": 0.05628815628815625,
+    "physics: disease-specific (thickness, fluid, gap, RPE)": 0.03980463980463975,
+    "physics: texture: rpe band": 0.03474969474969471,
+    "physics: texture: outer band": 0.021689865689865643,
+    "physics: texture: inner band": 0.019736263736263714,
+    "ROM: image-POD (50 modes)": 0.011098901098901081,
+    "physics: texture: choroid band": 0.008737484737484693,
+    "physics: boundary fractal": 0.006925518925518919,
+    "ROM: POD residual e(x)": 0.0
+  },
+  "rank": [
+    "physics: NDT (pulse-echo)",
+    "deep: DINOv2-S embedding (PCA 64)",
+    "physics: disease-specific (thickness, fluid, gap, RPE)",
+    "physics: texture: rpe band",
+    "physics: texture: outer band",
+    "physics: texture: inner band",
+    "ROM: image-POD (50 modes)",
+    "physics: texture: choroid band",
+    "physics: boundary fractal",
+    "ROM: POD residual e(x)"
+  ],
+  "top5_by_family": {
+    "physics": 4,
+    "deep": 1
+  }
+}
